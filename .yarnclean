@@ -19,6 +19,9 @@ examples
 coverage
 .nyc_output
 
+# module backups
+node_yarn
+
 # build scripts
 Makefile
 Gulpfile.js

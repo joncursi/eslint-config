@@ -37,7 +37,11 @@
     "immutable/no-this": 2,
     "immutable/no-mutation": 2,
     "import/named": 2,
-    "import/namespace": 2,
+    "import/namespace": [
+      2, {
+        "allowComputed": true
+      }
+    ],
     "import/no-extraneous-dependencies": [
       2, {
         "devDependencies": [
