@@ -71,7 +71,7 @@
     "new-with-error/new-with-error": "error",
     "no-loops/no-loops": 2,
     "prefer-destructuring": [
-      "error", {
+      "off", {
         "array": true,
         "object": true
       }, {
