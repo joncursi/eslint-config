@@ -5,6 +5,7 @@
     "plugin:flowtype/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
+    "plugin:jsx-a11y/recommended",
     "plugin:lodash/recommended",
     "plugin:react/recommended"
   ],
@@ -40,7 +41,7 @@
     "import/no-extraneous-dependencies": [
       2, {
         "devDependencies": [
-          "tests/**/*.tests.js"
+          "*.tests.js"
         ]
       }
     ],
