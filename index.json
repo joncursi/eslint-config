@@ -1,0 +1,142 @@
+{
+  "ecmaVersion": 6,
+  "extends": [
+    "airbnb",
+    "plugin:flowtype/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:lodash/recommended",
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "filenames",
+    "flowtype",
+    "flowtype-errors",
+    "immutable",
+    "import",
+    "jsx-a11y",
+    "lodash",
+    "mocha",
+    "new-with-error",
+    "no-loops",
+    "promise",
+    "react",
+    "security",
+    "you-dont-need-lodash-underscore"
+  ],
+  "rules": {
+    "filenames/match-regex": 2,
+    "filenames/match-exported": [
+      2,
+      "camel"
+    ],
+    "flowtype-errors/show-errors": 2,
+    "immutable/no-let": 2,
+    "immutable/no-this": 2,
+    "immutable/no-mutation": 2,
+    "import/named": 2,
+    "import/namespace": 2,
+    "import/no-extraneous-dependencies": [
+      2, {
+        "devDependencies": [
+          "tests/**/*.tests.js"
+        ]
+      }
+    ],
+    "import/order": [
+      "error", {
+        "groups": ["builtin", "external", "parent", "sibling", "index"],
+        "newlines-between": "always"
+      }
+    ],
+    "lodash/prefer-lodash-method": 0,
+    "mocha/handle-done-callback": "error",
+    "mocha/max-top-level-suites": [
+      "error", {
+        "limit": 1
+      }
+    ],
+    "mocha/no-exclusive-tests": "error",
+    "mocha/no-global-tests": "error",
+    "mocha/no-hooks": "error",
+    "mocha/no-identical-title": "error",
+    "mocha/no-mocha-arrows": "error",
+    "mocha/no-nested-tests": "error",
+    "mocha/no-pending-tests": "error",
+    "mocha/no-return-and-callback": "error",
+    "mocha/no-sibling-hooks": "error",
+    "mocha/no-skipped-tests": "error",
+    "new-with-error/new-with-error": "error",
+    "no-loops/no-loops": 2,
+    "prefer-destructuring": [
+      "error", {
+        "array": true,
+        "object": true
+      }, {
+        "enforceForRenamedProperties": true
+      }
+    ],
+    "promise/always-return": "error",
+    "promise/avoid-new": "warn",
+    "promise/catch-or-return": "error",
+    "promise/no-callback-in-promise": "warn",
+    "promise/no-nesting": "warn",
+    "promise/no-promise-in-callback": "warn",
+    "promise/no-return-wrap": "error",
+    "promise/param-names": "error",
+    "promise/prefer-await-to-callbacks": "warn",
+    "promise/prefer-await-to-then": "warn",
+    "react/jsx-filename-extension": [
+      1, {
+        "extensions": [
+          ".js"
+        ]
+      }
+    ],
+    "security/detect-unsafe-regex": "error",
+    "security/detect-non-literal-regexp": "error",
+    "security/detect-non-literal-require": "error",
+    "security/detect-object-injection": "error",
+    "security/detect-possible-timing-attacks": "error",
+    "sort-keys": [
+      "error", "asc", {
+        "caseSensitive": false
+      }
+    ],
+    "you-dont-need-lodash-underscore/all": 1,
+    "you-dont-need-lodash-underscore/any": 1,
+    "you-dont-need-lodash-underscore/assign": 1,
+    "you-dont-need-lodash-underscore/collect": 1,
+    "you-dont-need-lodash-underscore/concat": 1,
+    "you-dont-need-lodash-underscore/contains": 1,
+    "you-dont-need-lodash-underscore/detect": 1,
+    "you-dont-need-lodash-underscore/each": 1,
+    "you-dont-need-lodash-underscore/every": 1,
+    "you-dont-need-lodash-underscore/fill": 1,
+    "you-dont-need-lodash-underscore/filter": 1,
+    "you-dont-need-lodash-underscore/find": 1,
+    "you-dont-need-lodash-underscore/find-index": 1,
+    "you-dont-need-lodash-underscore/foldl": 1,
+    "you-dont-need-lodash-underscore/foldr": 1,
+    "you-dont-need-lodash-underscore/for-each": 1,
+    "you-dont-need-lodash-underscore/includes": 1,
+    "you-dont-need-lodash-underscore/index-of": 1,
+    "you-dont-need-lodash-underscore/inject": 1,
+    "you-dont-need-lodash-underscore/is-nan": 1,
+    "you-dont-need-lodash-underscore/join": 1,
+    "you-dont-need-lodash-underscore/keys": 1,
+    "you-dont-need-lodash-underscore/last-index-of": 1,
+    "you-dont-need-lodash-underscore/map": 1,
+    "you-dont-need-lodash-underscore/reduce": 1,
+    "you-dont-need-lodash-underscore/reduce-right": 1,
+    "you-dont-need-lodash-underscore/repeat": 1,
+    "you-dont-need-lodash-underscore/reverse": 1,
+    "you-dont-need-lodash-underscore/select": 1,
+    "you-dont-need-lodash-underscore/size": 1,
+    "you-dont-need-lodash-underscore/some": 1,
+    "you-dont-need-lodash-underscore/to-lower": 1,
+    "you-dont-need-lodash-underscore/to-upper": 1,
+    "you-dont-need-lodash-underscore/trim": 1
+  }
+}
