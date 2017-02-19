@@ -51,6 +51,10 @@ aria-query@^0.3.0:
   dependencies:
     ast-types-flow "0.0.7"
 
+array-differ@^1.0.0:
+  version "1.0.0"
+  resolved array-differ-1.0.0.tgz#eff52e3758249d33be402b8bb8e564bb2b5d4031
+
 array-union@^1.0.1:
   version "1.0.2"
   resolved array-union-1.0.2.tgz#9a34410e4f4e3da23dea375be5be70f24778ec39
@@ -484,6 +488,13 @@ eslint-module-utils@^2.0.0:
     debug "2.2.0"
     pkg-dir "^1.0.0"
 
+eslint-plugin-disable@^0.3.0:
+  version "0.3.0"
+  resolved eslint-plugin-disable-0.3.0.tgz#c5f411cf4004e48e79ae82cfc3b28b95dc90b737
+  dependencies:
+    multimatch "^2.1.0"
+    resolve "^1.1.6"
+
 eslint-plugin-filenames@^1.1.0:
   version "1.1.0"
   resolved eslint-plugin-filenames-1.1.0.tgz#bb925218ab25b1aad1c622cfa9cb8f43cc03a4ff
@@ -881,15 +892,9 @@ interpret@^1.0.0:
   version "1.0.1"
   resolved interpret-1.0.1.tgz#d579fb7f693b858004947af39fa0db49f795602c
 
-invariant@2.2.1:
+invariant@2.2.1, invariant@^2.2.0:
   version "2.2.1"
   resolved invariant-2.2.1.tgz#b097010547668c7e337028ebe816ebe36c8a8d54
-  dependencies:
-    loose-envify "^1.0.0"
-
-invariant@^2.2.0:
-  version "2.2.2"
-  resolved invariant-2.2.2.tgz#9e1f56ac0acdb6bf303306f338be3b204ae60360
   dependencies:
     loose-envify "^1.0.0"
 
@@ -1074,7 +1079,7 @@ loose-envify@^1.0.0:
   dependencies:
     js-tokens "^3.0.0"
 
-minimatch@^3.0.2, minimatch@^3.0.3:
+minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.3:
   version "3.0.3"
   resolved minimatch-3.0.3.tgz#2a4e4090b96b2db06a9d7df01055a62a77c9b774
   dependencies:
@@ -1097,6 +1102,15 @@ ms@0.7.1:
 ms@0.7.2:
   version "0.7.2"
   resolved ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765
+
+multimatch@^2.1.0:
+  version "2.1.0"
+  resolved multimatch-2.1.0.tgz#9c7906a22fb4c02919e2f5f75161b4cdbd4b2a2b
+  dependencies:
+    array-differ "^1.0.0"
+    array-union "^1.0.1"
+    arrify "^1.0.0"
+    minimatch "^3.0.0"
 
 mute-stream@0.0.5:
   version "0.0.5"

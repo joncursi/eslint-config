@@ -12,6 +12,7 @@
     "babel-eslint": "^7.1.1",
     "eslint": "^3.15.0",
     "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-disable": "^0.3.0",
     "eslint-plugin-filenames": "^1.1.0",
     "eslint-plugin-flowtype": "^2.30.0",
     "eslint-plugin-flowtype-errors": "^3.0.0",
@@ -48,5 +49,5 @@
   "private": true,
   "repository": "https://github.com/joncursi/eslint-config-redbird.git",
   "scripts": {},
-  "version": "1.1.5"
+  "version": "1.1.6"
 }

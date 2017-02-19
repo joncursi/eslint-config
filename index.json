@@ -11,6 +11,7 @@
   ],
   "parser": "babel-eslint",
   "plugins": [
+    "disable",
     "filenames",
     "flowtype",
     "flowtype-errors",
@@ -203,5 +204,17 @@
     "you-dont-need-lodash-underscore/to-lower": 1,
     "you-dont-need-lodash-underscore/to-upper": 1,
     "you-dont-need-lodash-underscore/trim": 1
+  },
+  "settings": {
+    "eslint-plugin-disable": {
+      "paths": {
+        "filenames": [
+          "**/*.tests.js"
+        ],
+        "flowtype": [
+          "**/*.tests.js"
+        ]
+      }
+    }
   }
 }
