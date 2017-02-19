@@ -209,7 +209,8 @@
     "eslint-plugin-disable": {
       "paths": {
         "filenames": [
-          "**/*.tests.js"
+          "**/*.tests.js",
+          "**/components/**/index.js"
         ],
         "flowtype": [
           "**/*.tests.js"
