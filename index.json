@@ -213,7 +213,8 @@
           "**/components/**/index.js"
         ],
         "flowtype": [
-          "**/*.tests.js"
+          "**/*.tests.js",
+          "scripts/*.js"
         ]
       }
     }
