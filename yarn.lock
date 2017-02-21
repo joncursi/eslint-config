@@ -655,9 +655,9 @@ eslint@3.12.0:
     text-table "~0.2.0"
     user-home "^2.0.0"
 
-eslint@^3.15.0:
-  version "3.15.0"
-  resolved eslint-3.15.0.tgz#bdcc6a6c5ffe08160e7b93c066695362a91e30f2
+eslint@^3.16.0:
+  version "3.16.0"
+  resolved eslint-3.16.0.tgz#4a468ab93618a9eb6e3f1499038b38851f828630
   dependencies:
     babel-code-frame "^6.16.0"
     chalk "^1.1.3"
@@ -852,8 +852,8 @@ home-or-tmp@^2.0.0:
     os-tmpdir "^1.0.1"
 
 ignore@^3.2.0:
-  version "3.2.2"
-  resolved ignore-3.2.2.tgz#1c51e1ef53bab6ddc15db4d9ac4ec139eceb3410
+  version "3.2.4"
+  resolved ignore-3.2.4.tgz#4055e03596729a8fabe45a43c100ad5ed815c4e8
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -952,8 +952,10 @@ is-property@^1.0.0:
   resolved is-property-1.0.2.tgz#57fe1c4e48474edd65b09911f26b1cd4095dda84
 
 is-regex@^1.0.3:
-  version "1.0.3"
-  resolved is-regex-1.0.3.tgz#0d55182bddf9f2fde278220aec3a75642c908637
+  version "1.0.4"
+  resolved is-regex-1.0.4.tgz#5517489b547091b0930e095654ced25ee97e9491
+  dependencies:
+    has "^1.0.1"
 
 is-resolvable@^1.0.0:
   version "1.0.0"
@@ -1268,8 +1270,8 @@ rechoir@^0.6.2:
     resolve "^1.1.6"
 
 regenerator-runtime@^0.10.0:
-  version "0.10.1"
-  resolved regenerator-runtime-0.10.1.tgz#257f41961ce44558b18f7814af48c17559f9faeb
+  version "0.10.3"
+  resolved regenerator-runtime-0.10.3.tgz#8c4367a904b51ea62a908ac310bf99ff90a82a3e
 
 regenerator-runtime@^0.9.5:
   version "0.9.6"
@@ -1308,8 +1310,8 @@ ret@~0.1.10:
   resolved ret-0.1.13.tgz#38c2702ece654978941edd8b7dfac6aeeef4067d
 
 rimraf@^2.2.8:
-  version "2.5.4"
-  resolved rimraf-2.5.4.tgz#96800093cbf1a0c86bd95b4625467535c29dfa04
+  version "2.6.0"
+  resolved rimraf-2.6.0.tgz#89b8a0fe432b9ff9ec9a925a00b6cdb3a91bbada
   dependencies:
     glob "^7.0.5"
 
