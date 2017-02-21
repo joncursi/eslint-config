@@ -72,7 +72,8 @@
     "import/no-extraneous-dependencies": [
       2, {
         "devDependencies": [
-          "./**/*.tests.js"
+          "**/*.tests.js",
+          "scripts/*.js"
         ]
       }
     ],
