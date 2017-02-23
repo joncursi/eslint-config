@@ -102,6 +102,11 @@
     "mocha/no-skipped-tests": "error",
     "new-with-error/new-with-error": "error",
     "no-loops/no-loops": 2,
+    "no-underscore-dangle": [
+      "error", {
+        "allowAfterThis": true
+      }
+    ],
     "prefer-destructuring": [
       "off", {
         "array": true,
