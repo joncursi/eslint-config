@@ -4,5 +4,8 @@
   ],
   "plugins": [
     "react-native"
-  ]
+  ],
+  "rules": {
+    "jsx-a11y/no-autofocus": 0
+  }
 }
