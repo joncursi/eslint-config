@@ -216,7 +216,10 @@
       "paths": {
         "filenames": [
           "**/*.tests.js",
-          "**/components/**/index.js"
+          "**/components/**/index.js",
+          "**/containers/**/index.js",
+          "**/layouts/**/index.js",
+          "**/scenes/**/index.js"
         ],
         "flowtype": [
           "**/*.tests.js",
