@@ -104,6 +104,10 @@
     "no-loops/no-loops": 2,
     "no-underscore-dangle": [
       "error", {
+        "allow": [
+          "_cachedRowCount",
+          "_dataBlob"
+        ],
         "allowAfterThis": true
       }
     ],
