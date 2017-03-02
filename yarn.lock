@@ -579,9 +579,9 @@ eslint-plugin-no-loops@^0.3.0:
   version "0.3.0"
   resolved eslint-plugin-no-loops-0.3.0.tgz#e81fecb4eaaf494a926d9caba9a7cd84d1fede7d
 
-eslint-plugin-promise@^3.4.1:
-  version "3.4.2"
-  resolved eslint-plugin-promise-3.4.2.tgz#1be2793eafe2d18b5b123b8136c269f804fe7122
+eslint-plugin-promise@^3.5.0:
+  version "3.5.0"
+  resolved eslint-plugin-promise-3.5.0.tgz#78fbb6ffe047201627569e85a6c5373af2a68fca
 
 eslint-plugin-react-intl@^1.0.2:
   version "1.0.2"
