@@ -44,9 +44,7 @@
         "annotationStyle": "block"
       }
     ],
-    "flowtype/require-variable-type": [
-      2, "always"
-    ],
+    "flowtype/require-variable-type": [0],
     "flowtype/semi": [
       2, "always"
     ],
