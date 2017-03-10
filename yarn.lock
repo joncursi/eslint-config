@@ -21,8 +21,8 @@ ajv-keywords@^1.0.0:
   resolved ajv-keywords-1.5.1.tgz#314dd0a4b3368fad3dfcdc54ede6171b886daf3c
 
 ajv@^4.7.0:
-  version "4.11.3"
-  resolved ajv-4.11.3.tgz#ce30bdb90d1254f762c75af915fb3a63e7183d22
+  version "4.11.4"
+  resolved ajv-4.11.4.tgz#ebf3a55d4b132ea60ff5847ae85d2ef069960b45
   dependencies:
     co "^4.6.0"
     json-stable-stringify "^1.0.1"
@@ -227,8 +227,8 @@ babel-types@^6.15.0, babel-types@^6.23.0:
     to-fast-properties "^1.0.1"
 
 babylon@^6.11.0, babylon@^6.13.0, babylon@^6.15.0:
-  version "6.15.0"
-  resolved babylon-6.15.0.tgz#ba65cfa1a80e1759b0e89fb562e27dccae70348e
+  version "6.16.1"
+  resolved babylon-6.16.1.tgz#30c5a22f481978a9e7f8cdfdf496b11d94b404d3
 
 balanced-match@^0.4.1:
   version "0.4.2"
@@ -378,8 +378,8 @@ doctrine@1.5.0, doctrine@^1.2.2:
     isarray "^1.0.0"
 
 emoji-regex@^6.1.0:
-  version "6.1.0"
-  resolved emoji-regex-6.1.0.tgz#d14ef743a7dfa6eaf436882bd1920a4aed84dd94
+  version "6.1.3"
+  resolved emoji-regex-6.1.3.tgz#ec79a3969b02d2ecf2b72254279bf99bc7a83932
 
 es-abstract@^1.7.0:
   version "1.7.0"
@@ -464,8 +464,8 @@ escope@3.6.0, escope@^3.6.0:
     estraverse "^4.1.1"
 
 eslint-config-airbnb-base@^11.1.0:
-  version "11.1.0"
-  resolved eslint-config-airbnb-base-11.1.0.tgz#dc9b3ec70b8c74dcbe6d6257c9da3992c39ca2ca
+  version "11.1.1"
+  resolved eslint-config-airbnb-base-11.1.1.tgz#61e9e89e4eb89f474f6913ac817be9fbb59063e0
 
 eslint-config-airbnb@^14.1.0:
   version "14.1.0"
@@ -503,17 +503,17 @@ eslint-plugin-filenames@^1.1.0:
     lodash.kebabcase "4.0.1"
     lodash.snakecase "4.0.1"
 
-eslint-plugin-flowtype-errors@^3.0.0:
-  version "3.0.0"
-  resolved eslint-plugin-flowtype-errors-3.0.0.tgz#94ff6281d0661f66e62e5db534ae6aa6cbdba2d0
+eslint-plugin-flowtype-errors@^3.0.1:
+  version "3.0.1"
+  resolved eslint-plugin-flowtype-errors-3.0.1.tgz#c970c818535250ceee29f800eac99700fa53b8e1
   dependencies:
     babel-plugin-transform-runtime "^6.22.0"
     shelljs "^0.7.6"
     slash "^1.0.0"
 
-eslint-plugin-flowtype@^2.30.2:
-  version "2.30.2"
-  resolved eslint-plugin-flowtype-2.30.2.tgz#110dce1903e34530bbe249f8071a7aab9612b5a7
+eslint-plugin-flowtype@^2.30.3:
+  version "2.30.3"
+  resolved eslint-plugin-flowtype-2.30.3.tgz#57835d2c0ed388da7a2725803ec32af2f437c301
   dependencies:
     lodash "^4.15.0"
 
@@ -881,8 +881,8 @@ is-fullwidth-code-point@^2.0.0:
   resolved is-fullwidth-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f
 
 is-my-json-valid@^2.10.0:
-  version "2.15.0"
-  resolved is-my-json-valid-2.15.0.tgz#936edda3ca3c211fd98f3b2d3e08da43f7b2915b
+  version "2.16.0"
+  resolved is-my-json-valid-2.16.0.tgz#f079dd9bfdae65ee2038aae8acbc86ab109e3693
   dependencies:
     generate-function "^2.0.0"
     generate-object-property "^1.1.0"
@@ -934,8 +934,8 @@ js-tokens@^3.0.0:
   resolved js-tokens-3.0.1.tgz#08e9f132484a2c45a30907e9dc4d5567b7f114d7
 
 js-yaml@^3.5.1:
-  version "3.8.1"
-  resolved js-yaml-3.8.1.tgz#782ba50200be7b9e5a8537001b7804db3ad02628
+  version "3.8.2"
+  resolved js-yaml-3.8.2.tgz#02d3e2c0f6beab20248d412c352203827d786721
   dependencies:
     argparse "^1.0.7"
     esprima "^3.1.1"
@@ -1151,6 +1151,10 @@ path-is-inside@^1.0.1:
   version "1.0.2"
   resolved path-is-inside-1.0.2.tgz#365417dede44430d1c11af61027facf074bdfc53
 
+path-parse@^1.0.5:
+  version "1.0.5"
+  resolved path-parse-1.0.5.tgz#3c1adf871ea9cd6c9431b6ea2bd74a0ff055c4c1
+
 pify@^2.0.0:
   version "2.3.0"
   resolved pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c
@@ -1202,8 +1206,8 @@ ramda@^0.22.1:
   resolved ramda-0.22.1.tgz#031da0c3df417c5b33c96234757eb37033f36a0e
 
 readable-stream@^2.2.2:
-  version "2.2.2"
-  resolved readable-stream-2.2.2.tgz#a9e6fec3c7dda85f8bb1b3ba7028604556fc825e
+  version "2.2.3"
+  resolved readable-stream-2.2.3.tgz#9cf49463985df016c8ae8813097a9293a9b33729
   dependencies:
     buffer-shims "^1.0.0"
     core-util-is "~1.0.0"
@@ -1253,8 +1257,10 @@ resolve-from@^1.0.0:
   resolved resolve-from-1.0.1.tgz#26cbfe935d1aeeeabb29bc3fe5aeb01e93d44226
 
 resolve@^1.1.6:
-  version "1.2.0"
-  resolved resolve-1.2.0.tgz#9589c3f2f6149d1417a40becc1663db6ec6bc26c
+  version "1.3.2"
+  resolved resolve-1.3.2.tgz#1f0442c9e0cbb8136e87b9305f932f46c7f28235
+  dependencies:
+    path-parse "^1.0.5"
 
 restore-cursor@^1.0.1:
   version "1.0.1"
@@ -1264,12 +1270,12 @@ restore-cursor@^1.0.1:
     onetime "^1.0.0"
 
 ret@~0.1.10:
-  version "0.1.13"
-  resolved ret-0.1.13.tgz#38c2702ece654978941edd8b7dfac6aeeef4067d
+  version "0.1.14"
+  resolved ret-0.1.14.tgz#58c636837b12e161f8a380cf081c6a230fd1664e
 
 rimraf@^2.2.8:
-  version "2.6.0"
-  resolved rimraf-2.6.0.tgz#89b8a0fe432b9ff9ec9a925a00b6cdb3a91bbada
+  version "2.6.1"
+  resolved rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d
   dependencies:
     glob "^7.0.5"
 
@@ -1290,8 +1296,8 @@ safe-regex@^1.1.0:
     ret "~0.1.10"
 
 shelljs@^0.7.5, shelljs@^0.7.6:
-  version "0.7.6"
-  resolved shelljs-0.7.6.tgz#379cccfb56b91c8601e4793356eb5382924de9ad
+  version "0.7.7"
+  resolved shelljs-0.7.7.tgz#b2f5c77ef97148f4b4f6e22682e10bba8667cff1
   dependencies:
     glob "^7.0.0"
     interpret "^1.0.0"
