@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "babel-eslint": "^7.1.1",
-    "eslint": "^3.17.1",
+    "eslint": "^3.18.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-disable": "^0.3.0",
     "eslint-plugin-filenames": "^1.1.0",
@@ -19,9 +19,9 @@
     "eslint-plugin-immutable": "^1.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-lodash": "^2.3.5",
+    "eslint-plugin-lodash": "^2.3.6",
     "eslint-plugin-meteor": "^4.0.1",
-    "eslint-plugin-mocha": "^4.8.0",
+    "eslint-plugin-mocha": "^4.9.0",
     "eslint-plugin-new-with-error": "^1.1.0",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-promise": "^3.5.0",
@@ -30,7 +30,7 @@
     "eslint-plugin-react-native": "^2.3.1",
     "eslint-plugin-security": "^1.3.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^5.0.4",
-    "flow-bin": "^0.41.0"
+    "flow-bin": "^0.42.0"
   },
   "description": "Shared ESLint rules for project redbird",
   "homepage": "https://github.com/joncursi/eslint-config-redbird#readme",
