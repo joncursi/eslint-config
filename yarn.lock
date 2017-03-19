@@ -179,14 +179,14 @@ babel-register@^6.24.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.2"
 
-babel-runtime@6.11.6:
+babel-runtime@6.11.6, babel-runtime@^6.11.6:
   version "6.11.6"
   resolved babel-runtime-6.11.6.tgz#6db707fef2d49c49bfa3cb64efdb436b518b8222
   dependencies:
     core-js "^2.4.0"
     regenerator-runtime "^0.9.5"
 
-babel-runtime@^6.11.6, babel-runtime@^6.22.0:
+babel-runtime@^6.22.0:
   version "6.23.0"
   resolved babel-runtime-6.23.0.tgz#0a9489f144de70efb3ce4300accdb329e2fc543b
   dependencies:
@@ -598,9 +598,9 @@ eslint-plugin-react-native@^2.3.1:
   version "2.3.1"
   resolved eslint-plugin-react-native-2.3.1.tgz#9ecd1df4f29c23a9a20c415c8e88466ff3724f0e
 
-eslint-plugin-react@^6.10.0:
-  version "6.10.0"
-  resolved eslint-plugin-react-6.10.0.tgz#9c48b48d101554b5355413e7c64238abde6ef1ef
+eslint-plugin-react@^6.10.1:
+  version "6.10.1"
+  resolved eslint-plugin-react-6.10.1.tgz#087cbd2a019839865a3b1c40155691957408678b
   dependencies:
     array.prototype.find "^2.0.1"
     doctrine "^1.2.2"
@@ -1326,8 +1326,8 @@ slice-ansi@0.0.4:
   resolved slice-ansi-0.0.4.tgz#edbf8903f66f7ce2f8eafd6ceed65e264c831b35
 
 source-map-support@^0.4.2:
-  version "0.4.13"
-  resolved source-map-support-0.4.13.tgz#9782e6f7deb424d5f173327a1879eb46453bdcd4
+  version "0.4.14"
+  resolved source-map-support-0.4.14.tgz#9d4463772598b86271b4f523f6c1f4e02a7d6aef
   dependencies:
     source-map "^0.5.6"
 
