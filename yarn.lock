@@ -112,15 +112,15 @@ babel-core@^6.16.0, babel-core@^6.24.0:
     slash "^1.0.0"
     source-map "^0.5.0"
 
-babel-eslint@^7.1.1:
-  version "7.1.1"
-  resolved babel-eslint-7.1.1.tgz#8a6a884f085aa7060af69cfc77341c2f99370fb2
+babel-eslint@^7.2.0:
+  version "7.2.0"
+  resolved babel-eslint-7.2.0.tgz#8941514b9dead06f0df71b29d5d5b193a92ee0ae
   dependencies:
-    babel-code-frame "^6.16.0"
-    babel-traverse "^6.15.0"
-    babel-types "^6.15.0"
-    babylon "^6.13.0"
-    lodash.pickby "^4.6.0"
+    babel-code-frame "^6.22.0"
+    babel-traverse "^6.23.1"
+    babel-types "^6.23.0"
+    babylon "^6.16.1"
+    lodash "^4.17.4"
 
 babel-generator@^6.24.0:
   version "6.24.0"
@@ -203,7 +203,7 @@ babel-template@^6.23.0:
     babylon "^6.11.0"
     lodash "^4.2.0"
 
-babel-traverse@^6.15.0, babel-traverse@^6.23.0, babel-traverse@^6.23.1:
+babel-traverse@^6.23.0, babel-traverse@^6.23.1:
   version "6.23.1"
   resolved babel-traverse-6.23.1.tgz#d3cb59010ecd06a97d81310065f966b699e14f48
   dependencies:
@@ -217,7 +217,7 @@ babel-traverse@^6.15.0, babel-traverse@^6.23.0, babel-traverse@^6.23.1:
     invariant "^2.2.0"
     lodash "^4.2.0"
 
-babel-types@^6.15.0, babel-types@^6.23.0:
+babel-types@^6.23.0:
   version "6.23.0"
   resolved babel-types-6.23.0.tgz#bb17179d7538bad38cd0c9e115d340f77e7e9acf
   dependencies:
@@ -226,7 +226,7 @@ babel-types@^6.15.0, babel-types@^6.23.0:
     lodash "^4.2.0"
     to-fast-properties "^1.0.1"
 
-babylon@^6.11.0, babylon@^6.13.0, babylon@^6.15.0:
+babylon@^6.11.0, babylon@^6.15.0, babylon@^6.16.1:
   version "6.16.1"
   resolved babylon-6.16.1.tgz#30c5a22f481978a9e7f8cdfdf496b11d94b404d3
 
@@ -406,8 +406,8 @@ es-to-primitive@^1.1.1:
     is-symbol "^1.0.1"
 
 es5-ext@^0.10.14, es5-ext@^0.10.9, es5-ext@~0.10.14:
-  version "0.10.14"
-  resolved es5-ext-0.10.14.tgz#625bc9ab9cac0f6fb9dc271525823d1800b3d360
+  version "0.10.15"
+  resolved es5-ext-0.10.15.tgz#c330a5934c1ee21284a7c081a86e5fd937c91ea6
   dependencies:
     es6-iterator "2"
     es6-symbol "~3.1"
@@ -598,9 +598,9 @@ eslint-plugin-react-native@^2.3.1:
   version "2.3.1"
   resolved eslint-plugin-react-native-2.3.1.tgz#9ecd1df4f29c23a9a20c415c8e88466ff3724f0e
 
-eslint-plugin-react@^6.10.1:
-  version "6.10.1"
-  resolved eslint-plugin-react-6.10.1.tgz#087cbd2a019839865a3b1c40155691957408678b
+eslint-plugin-react@^6.10.3:
+  version "6.10.3"
+  resolved eslint-plugin-react-6.10.3.tgz#c5435beb06774e12c7db2f6abaddcbf900cd3f78
   dependencies:
     array.prototype.find "^2.0.1"
     doctrine "^1.2.2"
@@ -1028,10 +1028,6 @@ lodash.memoize@4.1.2:
   version "4.1.2"
   resolved lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe
 
-lodash.pickby@^4.6.0:
-  version "4.6.0"
-  resolved lodash.pickby-4.6.0.tgz#7dea21d8c18d7703a27c704c15d3b84a67e33aff
-
 lodash.snakecase@4.0.1:
   version "4.0.1"
   resolved lodash.snakecase-4.0.1.tgz#bd012e5d2f93f7b58b9303e9a7fbfd5db13d6281
@@ -1043,7 +1039,7 @@ lodash.words@^4.0.0:
   version "4.2.0"
   resolved lodash.words-4.2.0.tgz#5ecfeaf8ecf8acaa8e0c8386295f1993c9cf4036
 
-lodash@^4.0.0, lodash@^4.15.0, lodash@^4.2.0, lodash@^4.3.0:
+lodash@^4.0.0, lodash@^4.15.0, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.4"
   resolved lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae
 
