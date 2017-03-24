@@ -112,15 +112,14 @@ babel-core@^6.16.0, babel-core@^6.24.0:
     slash "^1.0.0"
     source-map "^0.5.0"
 
-babel-eslint@^7.2.0:
-  version "7.2.0"
-  resolved babel-eslint-7.2.0.tgz#8941514b9dead06f0df71b29d5d5b193a92ee0ae
+babel-eslint@^7.2.1:
+  version "7.2.1"
+  resolved babel-eslint-7.2.1.tgz#079422eb73ba811e3ca0865ce87af29327f8c52f
   dependencies:
     babel-code-frame "^6.22.0"
     babel-traverse "^6.23.1"
     babel-types "^6.23.0"
     babylon "^6.16.1"
-    lodash "^4.17.4"
 
 babel-generator@^6.24.0:
   version "6.24.0"
@@ -179,14 +178,14 @@ babel-register@^6.24.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.2"
 
-babel-runtime@6.11.6, babel-runtime@^6.11.6:
+babel-runtime@6.11.6:
   version "6.11.6"
   resolved babel-runtime-6.11.6.tgz#6db707fef2d49c49bfa3cb64efdb436b518b8222
   dependencies:
     core-js "^2.4.0"
     regenerator-runtime "^0.9.5"
 
-babel-runtime@^6.22.0:
+babel-runtime@^6.11.6, babel-runtime@^6.22.0:
   version "6.23.0"
   resolved babel-runtime-6.23.0.tgz#0a9489f144de70efb3ce4300accdb329e2fc543b
   dependencies:
@@ -518,9 +517,9 @@ eslint-plugin-flowtype-errors@^3.0.1:
     shelljs "^0.7.6"
     slash "^1.0.0"
 
-eslint-plugin-flowtype@^2.30.3:
-  version "2.30.3"
-  resolved eslint-plugin-flowtype-2.30.3.tgz#57835d2c0ed388da7a2725803ec32af2f437c301
+eslint-plugin-flowtype@^2.30.4:
+  version "2.30.4"
+  resolved eslint-plugin-flowtype-2.30.4.tgz#771d6bb4578ab8598e9c58018fea2e1a22946249
   dependencies:
     lodash "^4.15.0"
 
@@ -554,9 +553,9 @@ eslint-plugin-jsx-a11y@^4.0.0:
     jsx-ast-utils "^1.0.0"
     object-assign "^4.0.1"
 
-eslint-plugin-lodash@^2.3.6:
-  version "2.3.6"
-  resolved eslint-plugin-lodash-2.3.6.tgz#0542417c442a5718e99af71a841d9e448e4e3717
+eslint-plugin-lodash@^2.3.7:
+  version "2.3.7"
+  resolved eslint-plugin-lodash-2.3.7.tgz#d75e977d4463241ed4f36a343ca997376cfae8c7
   dependencies:
     lodash "^4.0.0"
 
@@ -1039,7 +1038,7 @@ lodash.words@^4.0.0:
   version "4.2.0"
   resolved lodash.words-4.2.0.tgz#5ecfeaf8ecf8acaa8e0c8386295f1993c9cf4036
 
-lodash@^4.0.0, lodash@^4.15.0, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0:
+lodash@^4.0.0, lodash@^4.15.0, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.4"
   resolved lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae
 
