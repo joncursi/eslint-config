@@ -8,13 +8,13 @@ acorn-jsx@^3.0.0:
   dependencies:
     acorn "^3.0.4"
 
-acorn@4.0.4:
-  version "4.0.4"
-  resolved acorn-4.0.4.tgz#17a8d6a7a6c4ef538b814ec9abac2779293bf30a
-
 acorn@^3.0.4:
   version "3.3.0"
   resolved acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a
+
+acorn@^5.0.1:
+  version "5.0.2"
+  resolved acorn-5.0.2.tgz#dc1c8fb907f64db2ab573de2326b73527c24de36
 
 ajv-keywords@^1.0.0:
   version "1.5.1"
@@ -66,8 +66,8 @@ array-uniq@^1.0.1:
   resolved array-uniq-1.0.3.tgz#af6ac877a25cc7f74e058894753858dfdb24fdb6
 
 array.prototype.find@^2.0.1:
-  version "2.0.3"
-  resolved array.prototype.find-2.0.3.tgz#08c3ec33e32ec4bab362a2958e686ae92f59271d
+  version "2.0.4"
+  resolved array.prototype.find-2.0.4.tgz#556a5c5362c08648323ddaeb9de9d14bc1864c90
   dependencies:
     define-properties "^1.1.2"
     es-abstract "^1.7.0"
@@ -619,9 +619,9 @@ eslint-plugin-you-dont-need-lodash-underscore@^6.0.0:
   dependencies:
     kebab-case "^1.0.0"
 
-eslint@^3.18.0:
-  version "3.18.0"
-  resolved eslint-3.18.0.tgz#647e985c4ae71502d20ac62c109f66d5104c8a4b
+eslint@^3.19.0:
+  version "3.19.0"
+  resolved eslint-3.19.0.tgz#c8fc6201c7f40dd08941b87c085767386a679acc
   dependencies:
     babel-code-frame "^6.16.0"
     chalk "^1.1.3"
@@ -660,10 +660,10 @@ eslint@^3.18.0:
     user-home "^2.0.0"
 
 espree@^3.4.0:
-  version "3.4.0"
-  resolved espree-3.4.0.tgz#41656fa5628e042878025ef467e78f125cb86e1d
+  version "3.4.1"
+  resolved espree-3.4.1.tgz#28a83ab4aaed71ed8fe0f5efe61b76a05c13c4d2
   dependencies:
-    acorn "4.0.4"
+    acorn "^5.0.1"
     acorn-jsx "^3.0.0"
 
 esprima@^3.1.1:
