@@ -13,8 +13,8 @@ acorn@^3.0.4:
   resolved acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a
 
 acorn@^5.0.1:
-  version "5.0.2"
-  resolved acorn-5.0.2.tgz#dc1c8fb907f64db2ab573de2326b73527c24de36
+  version "5.0.3"
+  resolved acorn-5.0.3.tgz#c460df08491463f028ccb82eab3730bf01087b3d
 
 ajv-keywords@^1.0.0:
   version "1.5.1"
@@ -470,8 +470,8 @@ escope@3.6.0, escope@^3.6.0:
     estraverse "^4.1.1"
 
 eslint-config-airbnb-base@^11.1.0:
-  version "11.1.2"
-  resolved eslint-config-airbnb-base-11.1.2.tgz#259209a7678bf693e31cbe8f953f206b6aa7ccc3
+  version "11.1.3"
+  resolved eslint-config-airbnb-base-11.1.3.tgz#0e8db71514fa36b977fbcf977c01edcf863e0cf0
 
 eslint-config-airbnb@^14.1.0:
   version "14.1.0"
@@ -740,9 +740,9 @@ flat-cache@^1.2.1:
     graceful-fs "^4.1.2"
     write "^0.2.1"
 
-flow-bin@^0.42.0:
-  version "0.42.0"
-  resolved flow-bin-0.42.0.tgz#05dd754b6b052de7b150f9210e2160746961e3cf
+flow-bin@^0.43.0:
+  version "0.43.0"
+  resolved flow-bin-0.43.0.tgz#5cd16696be4311c0b14f0932e89ba8661a39b1c1
 
 foreach@^2.0.5:
   version "2.0.5"
