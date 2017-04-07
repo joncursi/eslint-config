@@ -178,14 +178,14 @@ babel-register@^6.24.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.2"
 
-babel-runtime@6.11.6:
+babel-runtime@6.11.6, babel-runtime@^6.11.6:
   version "6.11.6"
   resolved babel-runtime-6.11.6.tgz#6db707fef2d49c49bfa3cb64efdb436b518b8222
   dependencies:
     core-js "^2.4.0"
     regenerator-runtime "^0.9.5"
 
-babel-runtime@^6.11.6, babel-runtime@^6.22.0:
+babel-runtime@^6.22.0:
   version "6.23.0"
   resolved babel-runtime-6.23.0.tgz#0a9489f144de70efb3ce4300accdb329e2fc543b
   dependencies:
@@ -384,8 +384,8 @@ doctrine@^2.0.0:
     isarray "^1.0.0"
 
 emoji-regex@^6.1.0:
-  version "6.4.1"
-  resolved emoji-regex-6.4.1.tgz#77486fe9cd45421d260a6238b88d721e2fad2050
+  version "6.4.2"
+  resolved emoji-regex-6.4.2.tgz#a30b6fee353d406d96cfb9fa765bdc82897eff6e
 
 es-abstract@^1.7.0:
   version "1.7.0"
@@ -740,9 +740,9 @@ flat-cache@^1.2.1:
     graceful-fs "^4.1.2"
     write "^0.2.1"
 
-flow-bin@^0.43.0:
-  version "0.43.0"
-  resolved flow-bin-0.43.0.tgz#5cd16696be4311c0b14f0932e89ba8661a39b1c1
+flow-bin@^0.43.1:
+  version "0.43.1"
+  resolved flow-bin-0.43.1.tgz#0733958b448fb8ad4b1576add7e87c31794c81bc
 
 foreach@^2.0.5:
   version "2.0.5"
@@ -947,8 +947,8 @@ js-tokens@^3.0.0:
   resolved js-tokens-3.0.1.tgz#08e9f132484a2c45a30907e9dc4d5567b7f114d7
 
 js-yaml@^3.5.1:
-  version "3.8.2"
-  resolved js-yaml-3.8.2.tgz#02d3e2c0f6beab20248d412c352203827d786721
+  version "3.8.3"
+  resolved js-yaml-3.8.3.tgz#33a05ec481c850c8875929166fe1beb61c728766
   dependencies:
     argparse "^1.0.7"
     esprima "^3.1.1"
