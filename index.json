@@ -34,28 +34,38 @@
       "camel"
     ],
     "flowtype/delimiter-dangle": [
-      2, "always-multiline"
+      2,
+      "always-multiline"
     ],
     "flowtype/require-return-type": [
-      2, "always"
+      2,
+      "always"
     ],
     "flowtype/require-valid-file-annotation": [
-      2, "always", {
+      2,
+      "always",
+      {
         "annotationStyle": "block"
       }
     ],
-    "flowtype/require-variable-type": [0],
+    "flowtype/require-variable-type": [
+      0
+    ],
     "flowtype/semi": [
-      2, "always"
+      2,
+      "always"
     ],
     "flowtype/sort-keys": [
-      2, "asc", {
+      2,
+      "asc",
+      {
         "caseSensitive": true,
         "natural": false
       }
     ],
     "flowtype/type-id-match": [
-      2, "^([A-Z][a-z]*)+FlowType$"
+      2,
+      "^([A-Z][a-z]*)+FlowType$"
     ],
     "flowtype-errors/show-errors": 2,
     "immutable/no-let": 2,
@@ -63,12 +73,14 @@
     "immutable/no-mutation": 2,
     "import/named": 2,
     "import/namespace": [
-      2, {
+      2,
+      {
         "allowComputed": true
       }
     ],
     "import/no-extraneous-dependencies": [
-      2, {
+      2,
+      {
         "devDependencies": [
           "**/*.tests.js",
           "scripts/*.js"
@@ -76,15 +88,23 @@
       }
     ],
     "import/order": [
-      "error", {
-        "groups": ["builtin", "external", "parent", "sibling", "index"],
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "parent",
+          "sibling",
+          "index"
+        ],
         "newlines-between": "always"
       }
     ],
     "lodash/prefer-lodash-method": 0,
     "mocha/handle-done-callback": "error",
     "mocha/max-top-level-suites": [
-      "error", {
+      "error",
+      {
         "limit": 1
       }
     ],
@@ -101,7 +121,8 @@
     "new-with-error/new-with-error": "error",
     "no-loops/no-loops": 2,
     "no-underscore-dangle": [
-      "error", {
+      "error",
+      {
         "allow": [
           "_cachedRowCount",
           "_dataBlob"
@@ -110,10 +131,12 @@
       }
     ],
     "prefer-destructuring": [
-      "off", {
+      "off",
+      {
         "array": true,
         "object": true
-      }, {
+      },
+      {
         "enforceForRenamedProperties": true
       }
     ],
@@ -128,14 +151,16 @@
     "promise/prefer-await-to-callbacks": "warn",
     "promise/prefer-await-to-then": "warn",
     "react/jsx-filename-extension": [
-      1, {
+      1,
+      {
         "extensions": [
           ".js"
         ]
       }
     ],
     "react/sort-comp": [
-      2, {
+      2,
+      {
         "order": [
           "static-methods",
           "lifecycle",
@@ -149,7 +174,8 @@
             "displayName",
             "contextTypes",
             "propTypes",
-            "defaultProps"
+            "defaultProps",
+            "navigationOptions"
           ],
           "lifecycle": [
             "childContextTypes",
@@ -174,7 +200,9 @@
     "security/detect-object-injection": "off",
     "security/detect-possible-timing-attacks": "error",
     "sort-keys": [
-      "error", "asc", {
+      "error",
+      "asc",
+      {
         "caseSensitive": false
       }
     ],
