@@ -31,7 +31,10 @@
     "filenames/match-regex": 2,
     "filenames/match-exported": [
       2,
-      "camel"
+      [
+        "camel",
+        "pascal"
+      ]
     ],
     "flowtype/delimiter-dangle": [
       2,
@@ -245,11 +248,7 @@
     "eslint-plugin-disable": {
       "paths": {
         "filenames": [
-          "**/*.tests.js",
-          "**/components/**/index.js",
-          "**/containers/**/index.js",
-          "**/layouts/**/index.js",
-          "**/scenes/**/index.js"
+          "**/*.tests.js"
         ],
         "flowtype": [
           "**/*.tests.js",
