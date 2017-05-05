@@ -72,7 +72,7 @@
     ],
     "flowtype-errors/show-errors": 2,
     "immutable/no-let": 2,
-    "immutable/no-this": 2,
+    "immutable/no-this": 0,
     "immutable/no-mutation": 2,
     "import/named": 2,
     "import/namespace": [
