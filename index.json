@@ -129,7 +129,9 @@
       {
         "allow": [
           "_cachedRowCount",
-          "_dataBlob"
+          "_dataBlob",
+          "_ensureIndex",
+          "_id"
         ],
         "allowAfterThis": true
       }
