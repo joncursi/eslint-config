@@ -30,7 +30,7 @@
     "eslint-plugin-react-native": "^2.3.2",
     "eslint-plugin-security": "^1.3.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.3.1",
-    "flow-bin": "^0.46.0"
+    "flow-bin": "^0.47.0"
   },
   "description": "Shared ESLint rules for project redbird",
   "homepage": "https://github.com/joncursi/eslint-config-redbird#readme",
@@ -49,5 +49,5 @@
   "private": true,
   "repository": "https://github.com/joncursi/eslint-config-redbird.git",
   "scripts": {},
-  "version": "2.0.8"
+  "version": "2.0.9"
 }
