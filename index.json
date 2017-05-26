@@ -91,6 +91,18 @@
         ]
       }
     ],
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": [
+          "^/",
+          "^meteor/",
+          ".graphql$",
+          ".jpg$",
+          ".png$"
+        ]
+      }
+    ],
     "import/order": [
       "error",
       {
