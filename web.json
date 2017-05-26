@@ -4,5 +4,16 @@
   ],
   "plugins": [
     "meteor"
-  ]
+  ],
+  "rules": {
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": [
+          "^meteor/",
+          "^/"
+        ]
+      }
+    ]
+  }
 }
