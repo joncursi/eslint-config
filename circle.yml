@@ -1,0 +1,20 @@
+checkout:
+  post:
+    - git submodule update --init
+machine:
+  node:
+    version: 6.9.5
+  services:
+     - docker
+  timezone:
+    America/New_York
+dependencies:
+  cache_directories:
+    - ~/.cache/yarn
+    - node_modules
+  override:
+    - docker pull etops/codeclimate
+    - yarn
+test:
+  override:
+    - yarn codeclimate:ci

@@ -8,3 +8,18 @@ Shared ESLint rules for project redbird.
 * Core: [redbird-core](https://github.com/joncursi/redbird-core)
 * Native: [redbirdNative](https://github.com/joncursi/redbirdNative)
 * Web: [redbird-web](https://github.com/joncursi/redbird-web)
+
+## Testing
+
+To check for CodeClimate issues, run:
+
+```
+yarn codeclimate
+```
+
+If the above command fails to run, make sure that the
+`codeclimate` Docker machine is up and running:
+
+```
+docker-machine start codeclimate
+```
