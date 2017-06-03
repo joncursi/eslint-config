@@ -49,8 +49,12 @@
   "private": true,
   "repository": "https://github.com/joncursi/eslint-config-redbird.git",
   "scripts": {
-    "codeclimate": "codeclimate analyze",
-    "codeclimate:ci": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze"
+    "test": "codeclimate analyze",
+    "test:ci": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
+    "prepush": "yarn test"
   },
-  "version": "2.0.14"
+  "version": "2.0.14",
+  "devDependencies": {
+    "husky": "^0.13.4"
+  }
 }

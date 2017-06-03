@@ -17,4 +17,4 @@ dependencies:
     - yarn
 test:
   override:
-    - yarn codeclimate:ci
+    - yarn test:ci
