@@ -127,6 +127,7 @@
       "error",
       {
         "allow": [
+          "__meteor_runtime_config__",
           "_cachedRowCount",
           "_dataBlob",
           "_ensureIndex",
