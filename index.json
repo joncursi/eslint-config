@@ -130,6 +130,7 @@
           "_cachedRowCount",
           "_dataBlob",
           "_ensureIndex",
+          "_getPasswordResetTokenLifetimeMs",
           "_id"
         ],
         "allowAfterThis": true
