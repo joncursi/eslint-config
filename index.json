@@ -1,5 +1,4 @@
 {
-  "ecmaVersion": 2017,
   "env": {
     "jest/globals": true
   },
@@ -14,6 +13,9 @@
     "plugin:react/recommended"
   ],
   "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
   "plugins": [
     "disable",
     "filenames",

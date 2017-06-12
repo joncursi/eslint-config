@@ -56,5 +56,5 @@
     "test:ci": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "yarn test -- *.md"
   },
-  "version": "2.0.19"
+  "version": "2.0.20"
 }
