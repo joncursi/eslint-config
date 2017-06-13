@@ -40,7 +40,8 @@
       [
         "camel",
         "pascal"
-      ]
+      ],
+      "\\.(android|ios)$"
     ],
     "flowtype/delimiter-dangle": [
       2,
