@@ -10,17 +10,17 @@
   ],
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint": "^4.0.0",
+    "eslint": "^4.1.0",
     "eslint-config-airbnb": "^15.0.1",
     "eslint-plugin-disable": "^0.3.0",
     "eslint-plugin-filenames": "^1.2.0",
     "eslint-plugin-flowtype": "^2.34.0",
     "eslint-plugin-flowtype-errors": "^3.3.0",
     "eslint-plugin-immutable": "^1.0.0",
-    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-import": "^2.6.0",
     "eslint-plugin-jest": "^20.0.3",
     "eslint-plugin-jsx-a11y": "^5.0.3",
-    "eslint-plugin-lodash": "^2.4.2",
+    "eslint-plugin-lodash": "^2.4.3",
     "eslint-plugin-meteor": "^4.0.1",
     "eslint-plugin-new-with-error": "^1.1.0",
     "eslint-plugin-no-loops": "^0.3.0",
@@ -34,7 +34,7 @@
   },
   "description": "Shared ESLint rules for project redbird",
   "devDependencies": {
-    "husky": "^0.13.4"
+    "husky": "^0.14.0"
   },
   "homepage": "https://github.com/joncursi/eslint-config-redbird#readme",
   "keywords": [
@@ -56,5 +56,5 @@
     "test:ci": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "yarn test -- *.md"
   },
-  "version": "2.0.22"
+  "version": "2.0.23"
 }
