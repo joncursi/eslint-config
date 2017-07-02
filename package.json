@@ -34,7 +34,7 @@
   },
   "description": "Shared ESLint rules for project redbird",
   "devDependencies": {
-    "husky": "^0.14.1"
+    "husky": "^0.14.2"
   },
   "homepage": "https://github.com/joncursi/eslint-config-redbird#readme",
   "keywords": [
