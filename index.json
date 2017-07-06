@@ -123,6 +123,7 @@
         "newlines-between": "always"
       }
     ],
+    "jsx-a11y/href-no-hash": "off",
     "lodash/prefer-lodash-method": 0,
     "new-with-error/new-with-error": "error",
     "no-loops/no-loops": 2,
