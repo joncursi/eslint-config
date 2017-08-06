@@ -5,12 +5,10 @@
     "url": "https://github.com/joncursi/eslint-config-redbird/issues"
   },
   "config": {},
-  "contributors": [
-    "Jon Cursi <joncursi@gmail.com>"
-  ],
+  "contributors": ["Jon Cursi <joncursi@gmail.com>"],
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint": "^4.3.0",
+    "eslint": "^4.4.0",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-disable": "^0.3.0",
     "eslint-plugin-filenames": "^1.2.0",
@@ -37,11 +35,7 @@
     "husky": "^0.14.3"
   },
   "homepage": "https://github.com/joncursi/eslint-config-redbird#readme",
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "redbird"
-  ],
+  "keywords": ["eslint", "eslintconfig", "redbird"],
   "license": "UNLICENSED",
   "main": "index.js",
   "name": "eslint-config-redbird",
@@ -56,5 +50,5 @@
     "test:ci": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "yarn test -- *.md"
   },
-  "version": "2.5.0"
+  "version": "2.6.0"
 }
