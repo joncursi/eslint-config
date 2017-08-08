@@ -31,9 +31,7 @@
     "flow-bin": "^0.52.0"
   },
   "description": "Shared ESLint rules for project redbird",
-  "devDependencies": {
-    "husky": "^0.14.3"
-  },
+  "devDependencies": {},
   "homepage": "https://github.com/joncursi/eslint-config-redbird#readme",
   "keywords": ["eslint", "eslintconfig", "redbird"],
   "license": "UNLICENSED",
