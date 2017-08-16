@@ -28,7 +28,7 @@
     "eslint-plugin-react-native": "^3.0.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.3.1",
-    "flow-bin": "^0.52.0"
+    "flow-bin": "^0.53.0"
   },
   "description": "Shared ESLint rules for project redbird",
   "devDependencies": {},
@@ -48,5 +48,5 @@
     "test:ci": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "yarn test -- *.md"
   },
-  "version": "2.8.1"
+  "version": "2.9.0"
 }
