@@ -131,6 +131,7 @@
       "error",
       {
         "allow": [
+          "__PRELOADED_STATE__",
           "_cachedRowCount",
           "_dataBlob",
           "_ensureIndex",
