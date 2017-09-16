@@ -16,4 +16,4 @@ dependencies:
     - npm install
 test:
   override:
-    - yarn test:ci
+    - npm run test:ci
