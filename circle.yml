@@ -13,6 +13,7 @@ dependencies:
     - node_modules
   override:
     - docker pull etops/codeclimate
+    - npm install
 test:
   override:
     - yarn test:ci
