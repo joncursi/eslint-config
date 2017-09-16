@@ -13,6 +13,7 @@ dependencies:
     - node_modules
   override:
     - docker pull etops/codeclimate
+    - git lfs install --skip-smudge
     - npm install
 test:
   override:
