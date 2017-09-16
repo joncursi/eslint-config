@@ -10,11 +10,9 @@ machine:
     America/New_York
 dependencies:
   cache_directories:
-    - ~/.cache/yarn
     - node_modules
   override:
     - docker pull etops/codeclimate
-    - yarn
 test:
   override:
     - yarn test:ci
