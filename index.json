@@ -132,6 +132,7 @@
       "error",
       {
         "allow": [
+          "__DEV__",
           "__PRELOADED_STATE__",
           "_cachedRowCount",
           "_dataBlob",
