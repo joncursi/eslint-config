@@ -480,8 +480,8 @@ error-ex@^1.2.0:
     is-arrayish "^0.2.1"
 
 es-abstract@^1.7.0:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.8.2.tgz#25103263dc4decbda60e0c737ca32313518027ee"
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.9.0.tgz#690829a07cae36b222e7fd9b75c0d0573eb25227"
   dependencies:
     es-to-primitive "^1.1.1"
     function-bind "^1.1.1"
@@ -611,9 +611,9 @@ eslint-plugin-flowtype-errors@^3.3.2:
     babel-runtime "^6.23.0"
     slash "^1.0.0"
 
-eslint-plugin-flowtype@^2.37.0:
-  version "2.37.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.37.0.tgz#2b09694deea6efdd8354eccd328db134b2d8b6d5"
+eslint-plugin-flowtype@^2.38.0:
+  version "2.38.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.38.0.tgz#9134849d6f92e434a9adca0215b6b9f49a3b24d7"
   dependencies:
     lodash "^4.15.0"
 
