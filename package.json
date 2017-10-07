@@ -9,10 +9,10 @@
   "dependencies": {
     "babel-eslint": "8.0.1",
     "eslint": "4.8.0",
-    "eslint-config-airbnb": "15.1.0",
+    "eslint-config-airbnb": "16.0.0",
     "eslint-plugin-disable": "0.3.0",
     "eslint-plugin-filenames": "1.2.0",
-    "eslint-plugin-flowtype": "2.39.0",
+    "eslint-plugin-flowtype": "2.39.1",
     "eslint-plugin-flowtype-errors": "3.3.2",
     "eslint-plugin-immutable": "1.0.0",
     "eslint-plugin-import": "2.7.0",
@@ -48,5 +48,5 @@
     "test:ci": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "yarn test -- *.md"
   },
-  "version": "2.31.0"
+  "version": "2.32.0"
 }
