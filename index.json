@@ -78,6 +78,7 @@
       "^([A-Z][a-z]*)+FlowType$"
     ],
     "flowtype-errors/show-errors": 2,
+    "function-paren-newline": 0,
     "immutable/no-let": 0,
     "immutable/no-this": 0,
     "immutable/no-mutation": 2,
