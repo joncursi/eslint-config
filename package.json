@@ -7,7 +7,7 @@
   "config": {},
   "contributors": ["Jon Cursi <joncursi@gmail.com>"],
   "dependencies": {
-    "babel-eslint": "8.0.1",
+    "babel-eslint": "8.0.2",
     "eslint": "4.10.0",
     "eslint-config-airbnb": "16.1.0",
     "eslint-plugin-disable": "0.3.0",
@@ -48,5 +48,5 @@
     "test:ci": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "yarn test -- *.md"
   },
-  "version": "2.38.0"
+  "version": "2.39.0"
 }
