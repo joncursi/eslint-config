@@ -8,7 +8,7 @@
   "contributors": ["Jon Cursi <joncursi@gmail.com>"],
   "dependencies": {
     "babel-eslint": "8.0.3",
-    "eslint": "4.12.1",
+    "eslint": "4.13.0",
     "eslint-config-airbnb": "16.1.0",
     "eslint-plugin-disable": "1.0.0",
     "eslint-plugin-filenames": "1.2.0",
@@ -28,7 +28,7 @@
     "eslint-plugin-react-native": "3.2.0",
     "eslint-plugin-security": "1.4.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "6.3.1",
-    "flow-bin": "0.60.1"
+    "flow-bin": "0.61.0"
   },
   "description": "Shared ESLint rules for project redbird",
   "devDependencies": {},
@@ -48,5 +48,5 @@
     "test:ci": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "yarn test -- *.md"
   },
-  "version": "2.45.0"
+  "version": "2.46.0"
 }
