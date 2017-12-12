@@ -15,7 +15,7 @@ Shared ESLint rules for project redbird.
 To check for CodeClimate issues, run:
 
 ```
-yarn test
+npm test
 ```
 
 If the above command fails to run, make sure that the
