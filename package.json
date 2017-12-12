@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "babel-eslint": "8.0.3",
-    "eslint": "4.13.0",
+    "eslint": "4.13.1",
     "eslint-config-airbnb": "16.1.0",
     "eslint-plugin-disable": "1.0.0",
     "eslint-plugin-filenames": "1.2.0",
@@ -54,5 +54,5 @@
     "test:ci": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "npm test -- *.md"
   },
-  "version": "2.48.0"
+  "version": "2.49.0"
 }
