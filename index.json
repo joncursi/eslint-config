@@ -100,18 +100,6 @@
       }
     ],
     "import/no-named-as-default": 0,
-    "import/no-unresolved": [
-      "error",
-      {
-        "ignore": [
-          "^/",
-          "^meteor/",
-          ".graphql$",
-          ".jpg$",
-          ".png$"
-        ]
-      }
-    ],
     "import/order": [
       "error",
       {
