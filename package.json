@@ -36,14 +36,14 @@
     "eslintconfig",
     "cheddur"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "main": "index.js",
   "name": "eslint-config-cheddur",
   "peerDependencies": {
     "eslint": ">= 4.0.0",
     "flow-bin": ">= 0.62.0"
   },
-  "private": true,
+  "private": false,
   "repository": "https://github.com/cheddur/eslint-config-cheddur.git",
   "scripts": {
     "test": "codeclimate analyze",
