@@ -2,7 +2,7 @@
   "author": "Jon Cursi <joncursi@gmail.com>",
   "bugs": {
     "email": "support@cheddur.com",
-    "url": "https://github.com/cheddur/eslint-config-cheddur/issues"
+    "url": "https://github.com/cheddur/eslint-config/issues"
   },
   "config": {},
   "contributors": [
@@ -31,7 +31,7 @@
   },
   "description": "✅ Base eslint configuration for Cheddur",
   "devDependencies": {},
-  "homepage": "https://github.com/cheddur/eslint-config-cheddur#readme",
+  "homepage": "https://github.com/cheddur/eslint-config#readme",
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -47,7 +47,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cheddur/eslint-config-cheddur.git"
+    "url": "git+https://github.com/cheddur/eslint-config.git"
   },
   "scripts": {
     "test": "codeclimate analyze",
