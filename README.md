@@ -1,14 +1,14 @@
-[![CircleCI](https://circleci.com/gh/joncursi/eslint-config-redbird.svg?style=shield&circle-token=9d318f8c2c4fb6ef91c29815fb3742bf34e71e3a)](https://circleci.com/gh/joncursi/eslint-config-redbird)
+[![CircleCI](https://circleci.com/gh/cheddur/eslint-config-redbird.svg?style=shield&circle-token=9d318f8c2c4fb6ef91c29815fb3742bf34e71e3a)](https://circleci.com/gh/cheddur/eslint-config-redbird)
 
-# ESLint Config: Redbird
+# eslint-config-cheddur
 
-Shared ESLint rules for project redbird.
+Shared ESLint rules for the [Cheddur](https://www.cheddur.com) project.
 
-* Artwork: [redbird-artwork](https://github.com/joncursi/redbird-artwork)
-* Core: [redbird-core](https://github.com/joncursi/redbird-core)
-* Web: [redbird-web](https://github.com/joncursi/redbird-web)
-* Native: [redbird-native](https://github.com/joncursi/redbird-native)
-* Serverless: [redbird-serverless](https://github.com/joncursi/redbird-serverless)
+* [Artwork](https://github.com/cheddur/artwork)
+* [Core](https://github.com/cheddur/core)
+* [Native](https://github.com/cheddur/native)
+* [Serverless](https://github.com/cheddur/serverless)
+* [Web](https://github.com/cheddur/web)
 
 ## Testing
 
