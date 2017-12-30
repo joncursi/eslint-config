@@ -44,7 +44,6 @@
     "eslint": ">= 4.0.0",
     "flow-bin": ">= 0.62.0"
   },
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cheddur/eslint-config.git"
