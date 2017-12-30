@@ -8,8 +8,10 @@
   "contributors": [
     "Jon Cursi <joncursi@gmail.com>"
   ],
-  "dependencies": {
+  "description": "Shared ESLint rules for project redbird",
+  "devDependencies": {
     "babel-eslint": "8.1.2",
+    "eslint": "4.14.0",
     "eslint-config-airbnb": "16.1.0",
     "eslint-plugin-disable": "1.0.0",
     "eslint-plugin-filenames": "1.2.0",
@@ -26,10 +28,9 @@
     "eslint-plugin-react": "7.5.1",
     "eslint-plugin-react-intl": "1.1.0",
     "eslint-plugin-security": "1.4.0",
-    "eslint-plugin-you-dont-need-lodash-underscore": "6.3.1"
+    "eslint-plugin-you-dont-need-lodash-underscore": "6.3.1",
+    "flow-bin": "0.62.0"
   },
-  "description": "Shared ESLint rules for project redbird",
-  "devDependencies": {},
   "homepage": "https://github.com/joncursi/eslint-config-redbird#readme",
   "keywords": [
     "eslint",
@@ -40,8 +41,8 @@
   "main": "index.js",
   "name": "eslint-config-redbird",
   "peerDependencies": {
-    "eslint": ">=4.0.0",
-    "flow-bin": ">=0.60.0"
+    "eslint": ">= 4.0.0",
+    "flow-bin": ">= 0.62.0"
   },
   "private": true,
   "repository": "https://github.com/joncursi/eslint-config-redbird.git",
@@ -50,5 +51,5 @@
     "test:ci": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "npm test -- *.md"
   },
-  "version": "2.53.0"
+  "version": "2.54.0"
 }
