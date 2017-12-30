@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/cheddur/eslint-config-cheddur.svg?style=shield&circle-token=9d318f8c2c4fb6ef91c29815fb3742bf34e71e3a)](https://circleci.com/gh/cheddur/eslint-config-cheddur)
 
-# eslint-config-cheddur
+# eslint-config
 
 Shared ESLint rules for the [Cheddur](https://www.cheddur.com) project.
 

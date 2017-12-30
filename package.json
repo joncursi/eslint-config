@@ -30,6 +30,7 @@
     "eslint-plugin-you-dont-need-lodash-underscore": "6.3.1"
   },
   "description": "✅ Base eslint configuration for Cheddur",
+  "devDependencies": {},
   "homepage": "https://github.com/cheddur/eslint-config-cheddur#readme",
   "keywords": [
     "eslint",
@@ -38,17 +39,20 @@
   ],
   "license": "UNLICENSED",
   "main": "index.js",
-  "name": "eslint-config-cheddur",
+  "name": "@cheddur/eslint-config",
   "peerDependencies": {
     "eslint": ">= 4.0.0",
     "flow-bin": ">= 0.62.0"
   },
   "private": true,
-  "repository": "https://github.com/cheddur/eslint-config-cheddur.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheddur/eslint-config-cheddur.git"
+  },
   "scripts": {
     "test": "codeclimate analyze",
     "test:ci": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "npm test -- *.md"
   },
-  "version": "2.55.0"
+  "version": "2.56.0"
 }
