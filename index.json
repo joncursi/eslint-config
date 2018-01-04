@@ -121,13 +121,14 @@
       "error",
       {
         "allow": [
-          "__DEV__",
-          "__PRELOADED_STATE__",
           "_cachedRowCount",
           "_dataBlob",
+          "__DEV__",
           "_ensureIndex",
           "_getPasswordResetTokenLifetimeMs",
-          "_id"
+          "_id",
+          "__PRELOADED_STATE__",
+          "__typename"
         ],
         "allowAfterThis": true
       }
@@ -177,6 +178,7 @@
             "contextTypes",
             "propTypes",
             "defaultProps",
+            "getInitialProps",
             "navigationOptions"
           ],
           "lifecycle": [
