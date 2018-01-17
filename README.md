@@ -2,7 +2,7 @@
 
 # ESLint Config
 
-Shared ESLint rules for [Cheddur](https://www.cheddur.com).
+✅ Shared ESLint configuration for [Cheddur](https://www.cheddur.com).
 
 ## Testing
 
