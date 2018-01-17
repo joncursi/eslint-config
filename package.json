@@ -18,7 +18,7 @@
     "eslint-plugin-flowtype-errors": "3.3.7",
     "eslint-plugin-immutable": "1.0.0",
     "eslint-plugin-import": "2.8.0",
-    "eslint-plugin-jest": "21.6.2",
+    "eslint-plugin-jest": "21.7.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
     "eslint-plugin-lodash": "2.5.0",
     "eslint-plugin-new-with-error": "1.1.0",
@@ -53,5 +53,5 @@
     "test:ci": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "npm test -- *.md"
   },
-  "version": "2.61.0"
+  "version": "2.62.0"
 }
