@@ -24,7 +24,7 @@
     "eslint-plugin-new-with-error": "1.1.0",
     "eslint-plugin-no-loops": "0.3.0",
     "eslint-plugin-promise": "3.6.0",
-    "eslint-plugin-react": "7.6.0",
+    "eslint-plugin-react": "7.6.1",
     "eslint-plugin-react-intl": "1.1.1",
     "eslint-plugin-security": "1.4.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "6.3.1"
@@ -53,5 +53,5 @@
     "test:ci": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "npm test -- *.md"
   },
-  "version": "2.66.0"
+  "version": "2.67.0"
 }
