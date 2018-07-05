@@ -12,8 +12,9 @@ To check for CodeClimate issues, run:
 npm test
 ```
 
-If the above command fails to run, make sure that the
-`codeclimate` Docker machine is up and running:
+If the above command fails to run, make sure that your
+[Code Climate](https://github.com/codeclimate/codeclimate)
+Docker machine is up and running:
 
 ```
 docker-machine start codeclimate

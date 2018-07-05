@@ -15,6 +15,3 @@ dependencies:
     - docker pull etops/codeclimate
     - git lfs install --skip-smudge
     - npm install
-test:
-  override:
-    - npm run test:ci
