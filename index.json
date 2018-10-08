@@ -136,6 +136,7 @@
         "extensions": [".js"]
       }
     ],
+    "react/jsx-wrap-multilines": 0,
     "react/sort-comp": [
       2,
       {
