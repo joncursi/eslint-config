@@ -74,5 +74,5 @@
     "test": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "npm test -- *.md"
   },
-  "version": "3.0.2"
+  "version": "3.1.0"
 }
