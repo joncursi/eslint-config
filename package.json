@@ -50,7 +50,7 @@
   ],
   "license": "UNLICENSED",
   "lint-staged": {
-    "*.{js,json,css,md}": [
+    "*.{js,json,md}": [
       "prettier --write",
       "git add"
     ]
@@ -58,8 +58,8 @@
   "main": "index.js",
   "name": "@cheddur/eslint-config",
   "peerDependencies": {
-    "eslint": ">= 4.0.0",
-    "flow-bin": ">= 0.62.0"
+    "eslint": ">= 5.0.0",
+    "flow-bin": ">= 0.82.0"
   },
   "repository": {
     "type": "git",
@@ -69,5 +69,5 @@
     "test": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "npm test -- *.md"
   },
-  "version": "3.0.0"
+  "version": "3.0.1"
 }
