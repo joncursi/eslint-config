@@ -10,7 +10,6 @@
   ],
   "dependencies": {
     "babel-eslint": "10.0.1",
-    "eslint": "5.6.1",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-prettier": "3.1.0",
     "eslint-plugin-disable": "1.0.2",
@@ -33,10 +32,15 @@
   },
   "description": "✅ Shared ESLint configuration for Cheddur",
   "devDependencies": {
+    "eslint": "5.6.1",
     "husky": "1.1.1",
     "lint-staged": "7.3.0",
     "prettier": "1.14.3"
   },
+  "eslintConfig": {},
+  "eslintIgnore": [
+    "node_modules"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -53,7 +57,8 @@
     "*.{js,json,md}": [
       "prettier --write",
       "git add"
-    ]
+    ],
+    "*.js": "eslint"
   },
   "main": "index.js",
   "name": "@cheddur/eslint-config",
@@ -69,5 +74,5 @@
     "test": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc etops/codeclimate analyze",
     "prepush": "npm test -- *.md"
   },
-  "version": "3.0.1"
+  "version": "3.0.2"
 }
