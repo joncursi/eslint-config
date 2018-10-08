@@ -1,1 +1,1 @@
-module.exports = require('./intl.json');
+module.exports = require("./intl.json");

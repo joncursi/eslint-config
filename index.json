@@ -10,7 +10,8 @@
     "plugin:jest/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:lodash/recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "prettier"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
@@ -28,6 +29,7 @@
     "lodash",
     "new-with-error",
     "no-loops",
+    "prettier",
     "promise",
     "react",
     "security",
@@ -35,22 +37,9 @@
   ],
   "rules": {
     "filenames/match-regex": 2,
-    "filenames/match-exported": [
-      2,
-      [
-        "camel",
-        "pascal"
-      ],
-      "\\.(android|ios)$"
-    ],
-    "flowtype/delimiter-dangle": [
-      2,
-      "always-multiline"
-    ],
-    "flowtype/require-return-type": [
-      2,
-      "always"
-    ],
+    "filenames/match-exported": [2, ["camel", "pascal"], "\\.(android|ios)$"],
+    "flowtype/delimiter-dangle": [2, "always-multiline"],
+    "flowtype/require-return-type": [2, "always"],
     "flowtype/require-valid-file-annotation": [
       2,
       "always",
@@ -58,13 +47,8 @@
         "annotationStyle": "block"
       }
     ],
-    "flowtype/require-variable-type": [
-      0
-    ],
-    "flowtype/semi": [
-      2,
-      "always"
-    ],
+    "flowtype/require-variable-type": [0],
+    "flowtype/semi": [2, "always"],
     "flowtype/sort-keys": [
       2,
       "asc",
@@ -73,10 +57,7 @@
         "natural": false
       }
     ],
-    "flowtype/type-id-match": [
-      2,
-      "^([A-Z][a-z]*)+FlowType$"
-    ],
+    "flowtype/type-id-match": [2, "^([A-Z][a-z]*)+FlowType$"],
     "flowtype-errors/show-errors": 2,
     "function-paren-newline": 0,
     "immutable/no-let": 0,
@@ -92,24 +73,14 @@
     "import/no-extraneous-dependencies": [
       2,
       {
-        "devDependencies": [
-          "**/*.tests.js",
-          "**/tests.js",
-          "scripts/*.js"
-        ]
+        "devDependencies": ["**/*.tests.js", "**/tests.js", "scripts/*.js"]
       }
     ],
     "import/no-named-as-default": 0,
     "import/order": [
       "error",
       {
-        "groups": [
-          "builtin",
-          "external",
-          "parent",
-          "sibling",
-          "index"
-        ],
+        "groups": ["builtin", "external", "parent", "sibling", "index"],
         "newlines-between": "always"
       }
     ],
@@ -143,6 +114,7 @@
         "enforceForRenamedProperties": true
       }
     ],
+    "prettier/prettier": "error",
     "promise/always-return": "error",
     "promise/avoid-new": "warn",
     "promise/catch-or-return": "error",
@@ -156,20 +128,13 @@
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [
-          ".js"
-        ]
+        "extensions": [".js"]
       }
     ],
     "react/sort-comp": [
       2,
       {
-        "order": [
-          "static-methods",
-          "lifecycle",
-          "everything-else",
-          "render"
-        ],
+        "order": ["static-methods", "lifecycle", "everything-else", "render"],
         "groups": {
           "static-methods": [
             "props",
@@ -248,15 +213,8 @@
   "settings": {
     "eslint-plugin-disable": {
       "paths": {
-        "filenames": [
-          "**/*.tests.js",
-          "**/tests.js"
-        ],
-        "flowtype": [
-          "**/*.tests.js",
-          "**/tests.js",
-          "scripts/*.js"
-        ]
+        "filenames": ["**/*.tests.js", "**/tests.js"],
+        "flowtype": ["**/*.tests.js", "**/tests.js", "scripts/*.js"]
       }
     }
   }

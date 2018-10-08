@@ -5,9 +5,8 @@ machine:
   node:
     version: 10.6.0
   services:
-     - docker
-  timezone:
-    America/New_York
+    - docker
+  timezone: America/New_York
 dependencies:
   cache_directories:
     - node_modules
