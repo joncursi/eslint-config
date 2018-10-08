@@ -1,22 +1,26 @@
+/**
+ * @prettier
+ */
+
 module.exports = {
-  arrowParens: "avoid",
+  arrowParens: 'avoid',
   bracketSpacing: true,
   insertPragma: true,
   jsxBracketSameLine: false,
   overrides: [
     {
-      files: "*.js",
+      files: '*.js',
       options: {
-        parser: "flow"
-      }
-    }
+        parser: 'flow',
+      },
+    },
   ],
   printWidth: 80,
-  proseWrap: "preserve",
+  proseWrap: 'preserve',
   requirePragma: true,
   semi: true,
   singleQuote: true,
   tabWidth: 2,
-  trailingComma: "all",
-  useTabs: false
+  trailingComma: 'all',
+  useTabs: false,
 };

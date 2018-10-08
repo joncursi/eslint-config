@@ -1,1 +1,5 @@
-module.exports = require("./intl.json");
+/**
+ * @prettier
+ */
+
+module.exports = require('./intl.json');
