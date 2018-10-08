@@ -57,6 +57,11 @@
         "natural": false
       }
     ],
+    "flowtype/space-after-type-colon": [
+      2,
+      "always",
+      { "allowLineBreak": true }
+    ],
     "flowtype/type-id-match": [2, "^([A-Z][a-z]*)+FlowType$"],
     "flowtype-errors/show-errors": 2,
     "function-paren-newline": 0,
