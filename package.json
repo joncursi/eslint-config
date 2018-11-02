@@ -69,7 +69,7 @@
     "url": "git+https://github.com/cheddur/eslint-config.git"
   },
   "scripts": {
-    "test": "docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc codeclimate/codeclimate analyze"
+    "test": "echo \"$PWD\" && docker run --interactive --tty --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc codeclimate/codeclimate analyze"
   },
   "version": "3.2.1"
 }
