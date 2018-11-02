@@ -5,6 +5,7 @@ jobs:
       - image: circleci/node:11.0.0
       - image: etops/codeclimate
     steps:
+      - setup_remote_docker
       - checkout
       - restore_cache:
           key: npm-cache-{{ .Branch }}-{{ checksum "package.json" }}
