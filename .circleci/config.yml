@@ -3,7 +3,6 @@ jobs:
   build:
     docker:
       - image: circleci/node:11.0.0
-      - image: etops/codeclimate
     steps:
       - setup_remote_docker
       - checkout
@@ -14,7 +13,7 @@ jobs:
           key: npm-cache-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
             - node_modules
-      - run: ls -la
+      - run: eval $(docker-machine env default)
       - run: npm test
       - store_test_results:
           path: /tmp/test-reports
