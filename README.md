@@ -9,7 +9,7 @@
 To check for CodeClimate issues, run:
 
 ```shell
-npm test alkfsj alfjakls jasklj salfjaslkfj alsfjasklfjsal jaklsfj ajf asjf kajsflasf
+npm test
 ```
 
 If the above command fails to run, make sure that your
