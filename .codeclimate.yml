@@ -1,6 +1,0 @@
-version: "2"
-plugins:
-  markdownlint:
-    enabled: true
-exclude_patterns:
-  - "node_modules/"
