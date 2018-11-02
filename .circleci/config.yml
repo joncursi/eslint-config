@@ -3,6 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/node:11.0.0
+    working_directory: ~/cheddur/eslint-config
     steps:
       - checkout
       - restore_cache:
