@@ -31,13 +31,13 @@
     "eslint-plugin-react": "7.11.1",
     "eslint-plugin-react-intl": "1.1.2",
     "eslint-plugin-security": "1.4.0",
-    "markdownlint-cli": "0.13.0",
     "prettier": "1.14.3"
   },
   "description": "✅ Shared ESLint configuration for Cheddur",
   "devDependencies": {
     "husky": "1.1.3",
-    "lint-staged": "8.0.4"
+    "lint-staged": "8.0.4",
+    "markdownlint-cli": "0.13.0"
   },
   "eslintConfig": {},
   "eslintIgnore": [
