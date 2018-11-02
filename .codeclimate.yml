@@ -1,5 +1,8 @@
-engines:
+version: "2"
+plugins:
   markdownlint:
     enabled: true
-exclude_paths:
-  - node_modules
+exclude_patterns:
+  - "node_modules/"
+  - "package-lock.json"
+  - "npm-debug.log"
