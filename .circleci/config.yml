@@ -1,7 +1,6 @@
 version: 2.0
 jobs:
   build:
-    working_directory: ~/cheddur/eslint-config
     docker:
       - image: circleci/node:11.0.0
     steps:
@@ -14,3 +13,4 @@ jobs:
           paths:
             - node_modules
       - run: npm test
+    working_directory: ~/cheddur/eslint-config
