@@ -13,7 +13,7 @@ jobs:
           key: npm-cache-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
             - node_modules
-      - run: eval $(docker-machine env default)
+      - run: docker pull codeclimate/codeclimate
       - run: npm test
       - store_test_results:
           path: /tmp/test-reports
