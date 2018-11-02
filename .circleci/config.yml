@@ -16,4 +16,6 @@ jobs:
       - run: docker pull codeclimate/codeclimate
       - run: npm test
       - store_test_results:
-          path: /tmp/test-reports
+          path: test-results
+      - store_artifacts:
+          path: /code/test-results
