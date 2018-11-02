@@ -61,7 +61,7 @@
       "prettier --write",
       "git add"
     ],
-    "*.js": "eslint",
+    "*.js": "eslint --rule 'flowtype-errors/show-errors: 0'",
     "*.md": "markdownlint --config markdownlint.config.json"
   },
   "main": "index.js",
