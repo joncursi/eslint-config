@@ -97,14 +97,15 @@
       "error",
       {
         "allow": [
+          "__DEV__",
+          "__PRELOADED_STATE__",
+          "__typename",
           "_cachedRowCount",
           "_dataBlob",
-          "__DEV__",
           "_ensureIndex",
           "_getPasswordResetTokenLifetimeMs",
           "_id",
-          "__PRELOADED_STATE__",
-          "__typename"
+          "_typename"
         ],
         "allowAfterThis": true
       }
