@@ -23,7 +23,7 @@
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jest": "22.0.0",
     "eslint-plugin-jsx-a11y": "6.1.2",
-    "eslint-plugin-lodash": "3.1.0",
+    "eslint-plugin-lodash": "4.0.0",
     "eslint-plugin-new-with-error": "2.0.0",
     "eslint-plugin-no-loops": "0.3.0",
     "eslint-plugin-prettier": "3.0.0",
@@ -37,7 +37,7 @@
   "description": "✅ Shared ESLint configuration for Cheddur",
   "devDependencies": {
     "husky": "1.2.0",
-    "lint-staged": "8.0.5"
+    "lint-staged": "8.1.0"
   },
   "eslintConfig": {},
   "eslintIgnore": [
@@ -73,5 +73,5 @@
   "scripts": {
     "test": "markdownlint --config markdownlint.config.json README.md"
   },
-  "version": "3.3.1"
+  "version": "3.3.2"
 }
