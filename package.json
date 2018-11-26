@@ -21,7 +21,7 @@
     "eslint-plugin-flowtype-errors": "3.6.0",
     "eslint-plugin-immutable": "1.0.0",
     "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jest": "22.0.0",
+    "eslint-plugin-jest": "22.0.1",
     "eslint-plugin-jsx-a11y": "6.1.2",
     "eslint-plugin-lodash": "4.0.0",
     "eslint-plugin-new-with-error": "2.0.0",
@@ -73,5 +73,5 @@
   "scripts": {
     "test": "markdownlint --config markdownlint.config.json README.md"
   },
-  "version": "3.3.2"
+  "version": "3.3.3"
 }
