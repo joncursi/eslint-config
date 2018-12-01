@@ -32,7 +32,7 @@
     "eslint-plugin-react-intl": "1.1.2",
     "eslint-plugin-security": "1.4.0",
     "markdownlint-cli": "0.13.0",
-    "prettier": "1.15.2"
+    "prettier": "1.15.3"
   },
   "description": "✅ Shared ESLint configuration for Cheddur",
   "devDependencies": {
@@ -73,5 +73,5 @@
   "scripts": {
     "test": "markdownlint --config markdownlint.config.json README.md"
   },
-  "version": "3.3.4"
+  "version": "3.3.5"
 }
