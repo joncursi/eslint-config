@@ -12,7 +12,7 @@
     "@commitlint/cli": "7.2.1",
     "@commitlint/config-conventional": "7.1.2",
     "babel-eslint": "10.0.1",
-    "eslint": "5.9.0",
+    "eslint": "5.10.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-prettier": "3.3.0",
     "eslint-plugin-disable": "1.0.3",
@@ -73,5 +73,5 @@
   "scripts": {
     "test": "markdownlint --config markdownlint.config.json README.md"
   },
-  "version": "3.3.7"
+  "version": "3.3.8"
 }
