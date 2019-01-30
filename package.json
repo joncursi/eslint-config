@@ -1,28 +1,28 @@
 {
   "author": "Jon Cursi <joncursi@gmail.com>",
   "bugs": {
-    "email": "support@cheddur.com",
-    "url": "https://github.com/cheddur/eslint-config/issues"
+    "email": "joncursi@gmail.com",
+    "url": "https://github.com/joncursi/eslint-config/issues"
   },
   "config": {},
   "contributors": [
     "Jon Cursi <joncursi@gmail.com>"
   ],
   "dependencies": {
-    "@commitlint/cli": "7.3.2",
+    "@commitlint/cli": "7.4.0",
     "@commitlint/config-conventional": "7.3.1",
     "babel-eslint": "10.0.1",
-    "eslint": "5.12.0",
+    "eslint": "5.12.1",
     "eslint-config-airbnb": "17.1.0",
-    "eslint-config-prettier": "3.5.0",
+    "eslint-config-prettier": "4.0.0",
     "eslint-plugin-disable": "1.0.3",
     "eslint-plugin-filenames": "1.3.2",
     "eslint-plugin-flowtype": "3.2.1",
     "eslint-plugin-flowtype-errors": "3.6.0",
     "eslint-plugin-immutable": "1.0.0",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jest": "22.1.3",
-    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jest": "22.2.1",
+    "eslint-plugin-jsx-a11y": "6.2.0",
     "eslint-plugin-lodash": "5.1.0",
     "eslint-plugin-new-with-error": "2.0.0",
     "eslint-plugin-no-loops": "0.3.0",
@@ -32,12 +32,12 @@
     "eslint-plugin-react-intl": "1.1.2",
     "eslint-plugin-security": "1.4.0",
     "markdownlint-cli": "0.13.0",
-    "prettier": "1.15.3"
+    "prettier": "1.16.2"
   },
-  "description": "✅ Shared ESLint configuration for Cheddur",
+  "description": "✅ My preferred ESLint, CommitLint, MarkdownLint, and Prettier configs.",
   "devDependencies": {
     "husky": "1.3.1",
-    "lint-staged": "8.1.0"
+    "lint-staged": "8.1.1"
   },
   "eslintConfig": {},
   "eslintIgnore": [
@@ -49,11 +49,11 @@
       "pre-commit": "lint-staged"
     }
   },
-  "homepage": "https://github.com/cheddur/eslint-config#readme",
+  "homepage": "https://github.com/joncursi/eslint-config#readme",
   "keywords": [
     "eslint",
     "eslintconfig",
-    "cheddur"
+    "joncursi"
   ],
   "license": "UNLICENSED",
   "lint-staged": {
@@ -65,13 +65,13 @@
     "*.md": "markdownlint --config markdownlint.config.json"
   },
   "main": "index.js",
-  "name": "@cheddur/eslint-config",
+  "name": "@joncursi/eslint-config",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cheddur/eslint-config.git"
+    "url": "git+https://github.com/joncursi/eslint-config.git"
   },
   "scripts": {
     "test": "markdownlint --config markdownlint.config.json README.md"
   },
-  "version": "3.4.0"
+  "version": "4.0.0"
 }
