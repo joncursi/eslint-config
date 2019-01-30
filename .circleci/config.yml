@@ -13,4 +13,4 @@ jobs:
           paths:
             - node_modules
       - run: npm test
-    working_directory: ~/cheddur/eslint-config
+    working_directory: ~/joncursi/eslint-config
