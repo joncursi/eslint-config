@@ -44,8 +44,9 @@ module.exports = require('@joncursi/eslint-config/commitlint.config');
 This will allow Commitlint to discover the configuration this repository
 provides from within your `node_modules` folder.
 
-Next, add the following to your `package.json` file so that commitlint will run
-every time you create a new commit:
+Next, add the following to your `package.json` file so that commitlint will
+check for infractions in your commit messages every time you create a new
+commit:
 
 ```json
 ...
@@ -62,9 +63,9 @@ every time you create a new commit:
 ## Configure ESLint
 
 To configure [eslint](https://eslint.org/), add the following to your
-`package.json` file so that ESLint will discover the configuration this
-repository provides from within your `node_modules` folder, and run on `*.js`
-files every time you create a new commit:
+`package.json` file. This will allow ESLint to discover the configuration this
+repository provides from within your `node_modules` folder, and will check
+your `*.js` files for infractions every time you create a new commit:
 
 ```json
 ...
@@ -89,9 +90,10 @@ files every time you create a new commit:
 ### Configure MarkdownLint
 
 To configure [markdownlint](https://github.com/DavidAnson/markdownlint), add the
-following to your `package.json` file so that markdownlint will discover the
-configuration this repository provides from within your `node_modules` folder,
-and run on `*.md` files every time you create a new commit:
+following to your `package.json` file. This will allow markdownlint to discover
+the configuration this repository provides from within your `node_modules`
+folder, and will check your `*.md` files for infractions every time you create
+a new commit:
 
 ```json
 ...
@@ -121,8 +123,9 @@ module.exports = require('@joncursi/eslint-config/prettier.config');
 This will allow Prettier to discover the configuration this repository
 provides from within your `node_modules` folder.
 
-Next, add the following to your `package.json` file so that prettier will run
-on `*.js`, `*.json`, and `*.md` files every time you create a new commit:
+Next, add the following to your `package.json` file so that prettier will check
+your `*.js`, `*.json`, and `*.md` files for infractions every time you create a
+new commit:
 
 ```json
 ...
@@ -137,7 +140,7 @@ on `*.js`, `*.json`, and `*.md` files every time you create a new commit:
 
 ## Testing
 
-To check for issues in this codebase, run:
+To check for infractions in this codebase, run:
 
 ```shell
 npm test
