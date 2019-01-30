@@ -60,7 +60,7 @@ commit:
 ...
 ```
 
-## Configure ESLint
+### Configure ESLint
 
 To configure [eslint](https://eslint.org/), add the following to your
 `package.json` file. This will allow ESLint to discover the configuration this
