@@ -65,7 +65,8 @@ commit:
 To configure [ESLint](https://eslint.org/), add the following to your
 `package.json` file. This will allow ESLint to discover the configuration this
 repository provides from within your `node_modules` folder, and will check
-your `*.js`, `*.ts`, and `*.tsx` files for infractions every time you create a new commit:
+your `*.js`, `*.ts`, and `*.tsx` files for infractions every time you create a
+new commit:
 
 ```json
 ...
