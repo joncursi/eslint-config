@@ -68,6 +68,7 @@
     "url": "git+https://github.com/joncursi/eslint-config.git"
   },
   "scripts": {
+    "deploy": "bundle exec fastlane npm production",
     "test": "npm-run-all test:**",
     "test:lint:js": "eslint . --ext .js --quiet",
     "test:lint:md": "markdownlint README.md --config markdownlint.config.json"

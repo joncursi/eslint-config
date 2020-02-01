@@ -1,7 +1,7 @@
-# OSX
 .DS_Store
-
-# Node
+.env
+fastlane/README.md
+fastlane/report.xml
 node_modules
 npm-debug.log
 package-lock.json
