@@ -74,7 +74,12 @@ module.exports = {
         allowComputed: true,
       },
     ],
-    'import/no-extraneous-dependencies': [2],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: ['**/*.test.js', '**/*.test.ts', '**/*.test.tsx'],
+      },
+    ],
     'import/no-named-as-default': 'off',
     'import/no-unresolved': 'warn',
     'import/order': 'off',
