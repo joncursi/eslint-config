@@ -75,6 +75,6 @@ platform :npm do
 
   desc "Publish to npm registry"
   lane :production do
-    sh("npm publish")
+    sh("cd .. && npm publish")
   end
 end
