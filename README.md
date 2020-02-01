@@ -25,7 +25,7 @@ Configure husky by adding the following to your `package.json` file:
 ...
 ```
 
-### Configure CommitLint
+## Configure CommitLint
 
 To configure [CommitLint](https://github.com/marionebl/commitlint), create a
 `commitlint.config.js` file in the root of your project that contains the
@@ -60,7 +60,7 @@ commit:
 ...
 ```
 
-### Configure ESLint
+## Configure ESLint
 
 To configure [ESLint](https://eslint.org/), add the following to your
 `package.json` file. This will allow ESLint to discover the configuration this
@@ -91,7 +91,7 @@ If you're using [react-intl](https://github.com/formatjs/react-intl) in your
 project, you can also lint for i18n infractions by also including
 `@joncursi/eslint-config/intl` in ESLint's `extends: [...]` array.
 
-### Configure MarkdownLint
+## Configure MarkdownLint
 
 To configure [MarkdownLint](https://github.com/DavidAnson/markdownlint), add the
 following to your `package.json` file. This will allow MarkdownLint to discover
@@ -109,7 +109,7 @@ a new commit:
 ...
 ```
 
-### Configure Prettier
+## Configure Prettier
 
 To configure [prettier](https://prettier.io/), create a `prettier.config.js`
 file in the root of your project that contains the following:
@@ -143,7 +143,7 @@ your files for infractions every time you create a new commit:
 ...
 ```
 
-## Configure TypesSript
+## Configure TypeScript
 
 To configure [TypeScript](https://www.typescriptlang.org/), add the following
 to your `tsconfig.json` file. This will allow TypeScript to discover the
