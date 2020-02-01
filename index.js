@@ -77,7 +77,12 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: ['**/*.test.js', '**/*.test.ts', '**/*.test.tsx'],
+        devDependencies: [
+          '**/*.config.js',
+          '**/*.test.js',
+          '**/*.test.ts',
+          '**/*.test.tsx',
+        ],
       },
     ],
     'import/no-named-as-default': 'off',
