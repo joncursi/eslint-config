@@ -1,6 +1,6 @@
 # ESLint Config
 
-✅ My preferred CommitLint, ESLint, MarkdownLint, and Prettier configs.
+⚙️ My preferred configs for CommitLint, ESLint, MarkdownLint, Prettier, and TypeScript.
 
 [![CircleCI](https://circleci.com/gh/joncursi/eslint-config.svg?style=shield)](https://circleci.com/gh/joncursi/eslint-config)
 
@@ -27,7 +27,7 @@ Configure husky by adding the following to your `package.json` file:
 
 ### Configure CommitLint
 
-To configure [commitlint](https://github.com/marionebl/commitlint), create a
+To configure [CommitLint](https://github.com/marionebl/commitlint), create a
 `commitlint.config.js` file in the root of your project that contains the
 following:
 
@@ -41,10 +41,10 @@ following:
 module.exports = require('@joncursi/eslint-config/commitlint.config');
 ```
 
-This will allow Commitlint to discover the configuration this repository
+This will allow CommitLint to discover the configuration this repository
 provides from within your `node_modules` folder.
 
-Next, add the following to your `package.json` file so that commitlint will
+Next, add the following to your `package.json` file so that CommitLint will
 check for infractions in your commit messages every time you create a new
 commit:
 
@@ -62,7 +62,7 @@ commit:
 
 ### Configure ESLint
 
-To configure [eslint](https://eslint.org/), add the following to your
+To configure [ESLint](https://eslint.org/), add the following to your
 `package.json` file. This will allow ESLint to discover the configuration this
 repository provides from within your `node_modules` folder, and will check
 your `*.js`, `*.ts`, and `*.tsx` files for infractions every time you create a new commit:
@@ -87,10 +87,14 @@ your `*.js`, `*.ts`, and `*.tsx` files for infractions every time you create a n
 ...
 ```
 
+If you're using [react-intl](https://github.com/formatjs/react-intl) in your
+project, you can also lint for i18n infractions by also including
+`@joncursi/eslint-config/intl` in ESLint's `extends: [...]` array.
+
 ### Configure MarkdownLint
 
-To configure [markdownlint](https://github.com/DavidAnson/markdownlint), add the
-following to your `package.json` file. This will allow markdownlint to discover
+To configure [MarkdownLint](https://github.com/DavidAnson/markdownlint), add the
+following to your `package.json` file. This will allow MarkdownLint to discover
 the configuration this repository provides from within your `node_modules`
 folder, and will check your `*.md` files for infractions every time you create
 a new commit:
@@ -136,6 +140,18 @@ your files for infractions every time you create a new commit:
   ]
   ...
 },
+...
+```
+
+## Configure TypesSript
+
+To configure [TypeScript](https://www.typescriptlang.org/), add the following
+to your `tsconfig.json` file. This will allow TypeScript to discover the
+configuration this repository provides from within your `node_modules` folder:
+
+```json
+...
+"extends": "node_modules/@joncursi/eslint-config/tsconfig.json",
 ...
 ```
 

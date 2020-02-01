@@ -35,7 +35,7 @@
     "prettier": "1.19.1",
     "typescript": "3.7.5"
   },
-  "description": "✅ My preferred ESLint, CommitLint, MarkdownLint, and Prettier configs.",
+  "description": "⚙️ My preferred configs for CommitLint, ESLint, MarkdownLint, Prettier, and TypeScript.",
   "devDependencies": {
     "husky": "4.2.1",
     "lint-staged": "10.0.7"
