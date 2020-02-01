@@ -65,7 +65,7 @@ commit:
 To configure [eslint](https://eslint.org/), add the following to your
 `package.json` file. This will allow ESLint to discover the configuration this
 repository provides from within your `node_modules` folder, and will check
-your `*.js` files for infractions every time you create a new commit:
+your `*.js`, `*.ts`, and `*.tsx` files for infractions every time you create a new commit:
 
 ```json
 ...
@@ -81,7 +81,7 @@ your `*.js` files for infractions every time you create a new commit:
 ...
 "lint-staged": {
   ...
-  "*.js": "eslint",
+  "*.{js,ts,tsx}": "eslint",
   ...
 },
 ...
@@ -99,7 +99,7 @@ a new commit:
 ...
 "lint-staged": {
   ...
-  "*.md": "markdownlint --config node_modules/@joncursi/eslint-config/markdownlint.config.json",
+  "*.{md}": "markdownlint --config node_modules/@joncursi/eslint-config/markdownlint.config.json",
   ...
 },
 ...
@@ -124,16 +124,17 @@ This will allow Prettier to discover the configuration this repository
 provides from within your `node_modules` folder.
 
 Next, add the following to your `package.json` file so that prettier will check
-your `*.js`, `*.json`, and `*.md` files for infractions every time you create a
-new commit:
+your files for infractions every time you create a new commit:
 
 ```json
 ...
 "lint-staged": {
-  "*.{js,json,md}": [
+  ...
+  "*.{js,json,md,ts,tsx}": [
     "prettier --write",
     "git add"
   ]
+  ...
 },
 ...
 ```
