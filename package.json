@@ -4,45 +4,42 @@
     "email": "joncursi@gmail.com",
     "url": "https://github.com/joncursi/eslint-config/issues"
   },
-  "config": {},
   "contributors": [
     "Jon Cursi <joncursi@gmail.com>"
   ],
   "dependencies": {
-    "@commitlint/cli": "7.4.0",
-    "@commitlint/config-conventional": "7.3.1",
-    "babel-eslint": "10.0.1",
-    "eslint": "5.12.1",
-    "eslint-config-airbnb": "17.1.0",
-    "eslint-config-prettier": "4.0.0",
-    "eslint-plugin-disable": "1.0.3",
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@typescript-eslint/eslint-plugin": "2.18.0",
+    "@typescript-eslint/parser": "2.18.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-disable": "1.0.5",
     "eslint-plugin-filenames": "1.3.2",
-    "eslint-plugin-flowtype": "3.2.1",
-    "eslint-plugin-flowtype-errors": "3.6.0",
     "eslint-plugin-immutable": "1.0.0",
-    "eslint-plugin-import": "2.16.0",
-    "eslint-plugin-jest": "22.2.1",
-    "eslint-plugin-jsx-a11y": "6.2.0",
-    "eslint-plugin-lodash": "5.1.0",
+    "eslint-plugin-import": "2.20.0",
+    "eslint-plugin-jest": "23.6.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-lodash": "6.0.0",
     "eslint-plugin-new-with-error": "2.0.0",
     "eslint-plugin-no-loops": "0.3.0",
-    "eslint-plugin-prettier": "3.0.1",
-    "eslint-plugin-promise": "4.0.1",
-    "eslint-plugin-react": "7.12.4",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "7.18.0",
+    "eslint-plugin-react-hooks": "2.3.0",
     "eslint-plugin-react-intl": "1.1.2",
     "eslint-plugin-security": "1.4.0",
-    "markdownlint-cli": "0.13.0",
-    "prettier": "1.16.2"
+    "markdownlint-cli": "0.21.0",
+    "npm-run-all": "4.1.5",
+    "prettier": "1.19.1",
+    "typescript": "3.7.5"
   },
   "description": "✅ My preferred ESLint, CommitLint, MarkdownLint, and Prettier configs.",
   "devDependencies": {
-    "husky": "1.3.1",
-    "lint-staged": "8.1.1"
+    "husky": "4.2.1",
+    "lint-staged": "10.0.7"
   },
-  "eslintConfig": {},
-  "eslintIgnore": [
-    "node_modules"
-  ],
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
@@ -52,17 +49,17 @@
   "homepage": "https://github.com/joncursi/eslint-config#readme",
   "keywords": [
     "eslint",
-    "eslintconfig",
+    "eslint-config",
     "joncursi"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "lint-staged": {
+    "*.{js}": "npm run test:lint:js",
     "*.{js,json,md}": [
       "prettier --write",
       "git add"
     ],
-    "*.js": "eslint --rule 'flowtype-errors/show-errors: 0'",
-    "*.md": "markdownlint --config markdownlint.config.json"
+    "*.{md}": "npm run test:lint:md"
   },
   "main": "index.js",
   "name": "@joncursi/eslint-config",
@@ -71,7 +68,9 @@
     "url": "git+https://github.com/joncursi/eslint-config.git"
   },
   "scripts": {
-    "test": "markdownlint --config markdownlint.config.json README.md"
+    "test": "npm-run-all test:**",
+    "test:lint:js": "eslint . --ext .js --quiet",
+    "test:lint:md": "markdownlint README.md --config markdownlint.config.json"
   },
-  "version": "4.0.0"
+  "version": "5.0.0"
 }

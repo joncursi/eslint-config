@@ -1,6 +1,0 @@
-{
-  "plugins": ["react-intl"],
-  "rules": {
-    "react-intl/string-is-marked-for-translation": "error"
-  }
-}

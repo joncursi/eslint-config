@@ -2,19 +2,14 @@
  * @prettier
  */
 
+/* eslint-disable immutable/no-mutation */
+
 module.exports = {
   arrowParens: 'avoid',
   bracketSpacing: true,
   insertPragma: true,
   jsxBracketSameLine: false,
-  overrides: [
-    {
-      files: '*.js',
-      options: {
-        parser: 'flow',
-      },
-    },
-  ],
+  parser: 'typescript',
   printWidth: 80,
   proseWrap: 'preserve',
   requirePragma: true,

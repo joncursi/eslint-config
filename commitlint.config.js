@@ -2,6 +2,8 @@
  * @prettier
  */
 
+/* eslint-disable immutable/no-mutation */
+
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
