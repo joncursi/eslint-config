@@ -73,5 +73,5 @@
     "test:lint:js": "eslint . --ext .js --quiet",
     "test:lint:md": "markdownlint README.md --config markdownlint.config.json"
   },
-  "version": "5.3.1"
+  "version": "5.3.2"
 }
