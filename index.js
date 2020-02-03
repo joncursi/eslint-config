@@ -77,12 +77,7 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: [
-          '**/*.config.js',
-          '**/*.test.js',
-          '**/*.test.ts',
-          '**/*.test.tsx',
-        ],
+        devDependencies: ['**/*.config.*', '**/*.test.*', '**/test/**/*.*'],
       },
     ],
     'import/no-named-as-default': 'off',
@@ -137,7 +132,7 @@ module.exports = {
     'react/jsx-filename-extension': [
       'warn',
       {
-        extensions: ['.js', '.tsx'],
+        extensions: ['.js', '.ts', '.tsx'],
       },
     ],
     'react/jsx-fragments': ['error', 'syntax'],
