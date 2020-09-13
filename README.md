@@ -36,8 +36,7 @@ following:
  * @prettier
  */
 
-/* eslint-disable */
-
+// eslint-disable-next-line immutable/no-mutation
 module.exports = require('@joncursi/eslint-config/commitlint.config');
 ```
 
@@ -88,10 +87,6 @@ new commit:
 ...
 ```
 
-If you're using [react-intl](https://github.com/formatjs/react-intl) in your
-project, you can also lint for i18n infractions by also including
-`@joncursi/eslint-config/intl` in ESLint's `extends: [...]` array.
-
 ## Configure MarkdownLint
 
 To configure [MarkdownLint](https://github.com/DavidAnson/markdownlint), add the
@@ -120,8 +115,7 @@ file in the root of your project that contains the following:
  * @prettier
  */
 
-/* eslint-disable */
-
+// eslint-disable-next-line immutable/no-mutation
 module.exports = require('@joncursi/eslint-config/prettier.config');
 ```
 
