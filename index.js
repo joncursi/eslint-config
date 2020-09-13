@@ -2,8 +2,7 @@
  * @prettier
  */
 
-/* eslint-disable immutable/no-mutation */
-
+// eslint-disable-next-line immutable/no-mutation
 module.exports = {
   env: {
     browser: true,
@@ -44,6 +43,7 @@ module.exports = {
     'react-hooks',
     'security',
   ],
+  root: true,
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/explicit-member-accessibility': 'off',
@@ -52,7 +52,7 @@ module.exports = {
     'filenames/match-exported': [
       'error',
       ['camel', 'pascal'],
-      '\\.(android|config|ios|test)$',
+      '\\.(config|test)$',
     ],
     'filenames/match-regex': 'off',
     'function-paren-newline': 'off',
@@ -74,6 +74,7 @@ module.exports = {
         allowComputed: true,
       },
     ],
+    'import/no-duplicates': 'error',
     'import/no-extraneous-dependencies': [
       'error',
       {
@@ -91,16 +92,7 @@ module.exports = {
     'no-underscore-dangle': [
       'error',
       {
-        allow: [
-          '__DEV__',
-          '__ENV__',
-          '__typename',
-          '_cachedRowCount',
-          '_dataBlob',
-          '_ensureIndex',
-          '_id',
-          '_typename',
-        ],
+        allow: ['__ENV__', '_id', '__typename', '_typename'],
         allowAfterThis: true,
       },
     ],
@@ -215,6 +207,9 @@ module.exports = {
     },
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    jest: {
+      version: 26,
     },
     react: {
       version: 'detect',

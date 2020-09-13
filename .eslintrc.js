@@ -2,6 +2,5 @@
  * @prettier
  */
 
-/* eslint-disable immutable/no-mutation */
-
+// eslint-disable-next-line immutable/no-mutation
 module.exports = require('./index.js');

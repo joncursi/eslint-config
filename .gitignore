@@ -1,7 +1,6 @@
 .DS_Store
-.env
+fastlane/.env
 fastlane/README.md
 fastlane/report.xml
 node_modules
 npm-debug.log
-package-lock.json

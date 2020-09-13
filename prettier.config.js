@@ -2,8 +2,7 @@
  * @prettier
  */
 
-/* eslint-disable immutable/no-mutation */
-
+// eslint-disable-next-line immutable/no-mutation
 module.exports = {
   arrowParens: 'avoid',
   bracketSpacing: true,
